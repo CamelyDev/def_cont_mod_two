@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "defconttwo:verum_block"
+    }
+  ],
+  "result": {
+    "item": "defconttwo:verum",
+    "count": 9
+  }
+}

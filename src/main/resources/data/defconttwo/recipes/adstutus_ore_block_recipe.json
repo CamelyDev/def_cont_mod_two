@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:adstutus"
+    },
+    "1": {
+      "item": "defconttwo:adstutus"
+    },
+    "2": {
+      "item": "defconttwo:adstutus"
+    },
+    "3": {
+      "item": "defconttwo:adstutus"
+    },
+    "4": {
+      "item": "defconttwo:adstutus"
+    },
+    "5": {
+      "item": "defconttwo:adstutus"
+    },
+    "6": {
+      "item": "defconttwo:adstutus"
+    },
+    "7": {
+      "item": "defconttwo:adstutus"
+    },
+    "8": {
+      "item": "defconttwo:adstutus"
+    }
+  },
+  "result": {
+    "item": "defconttwo:adstutus_block",
+    "count": 1
+  }
+}

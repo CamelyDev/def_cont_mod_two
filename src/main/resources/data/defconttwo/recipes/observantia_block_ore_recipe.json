@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "defconttwo:observantia_block"
+    }
+  ],
+  "result": {
+    "item": "defconttwo:observantia",
+    "count": 9
+  }
+}

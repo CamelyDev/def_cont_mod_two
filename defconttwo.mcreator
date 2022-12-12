@@ -1,0 +1,257 @@
+{
+  "mod_elements": [
+    {
+      "name": "Adstutus",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adstutus"
+    },
+    {
+      "name": "AdstutusOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adstutus_ore"
+    },
+    {
+      "name": "AdstutusBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adstutus_block"
+    },
+    {
+      "name": "AdstutusOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adstutus_ore_block_recipe"
+    },
+    {
+      "name": "AdstutusBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adstutus_block_ore_recipe"
+    },
+    {
+      "name": "AdstutusOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "adstutus_ore_smelting"
+    },
+    {
+      "name": "Observantia",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observantia"
+    },
+    {
+      "name": "ObservantiaOre",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observantia_ore"
+    },
+    {
+      "name": "ObservantiaBlock",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observantia_block"
+    },
+    {
+      "name": "ObservantiaOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observantia_ore_block_recipe"
+    },
+    {
+      "name": "ObservantiaBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observantia_block_ore_recipe"
+    },
+    {
+      "name": "ObservantiaOreSmelting",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "observantia_ore_smelting"
+    },
+    {
+      "name": "Robur",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robur"
+    },
+    {
+      "name": "RoburOre",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robur_ore"
+    },
+    {
+      "name": "RoburBlock",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robur_block"
+    },
+    {
+      "name": "RoburOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robur_ore_block_recipe"
+    },
+    {
+      "name": "RoburBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robur_block_ore_recipe"
+    },
+    {
+      "name": "RoburOreSmelting",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robur_ore_smelting"
+    },
+    {
+      "name": "Verum",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verum"
+    },
+    {
+      "name": "VerumOre",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verum_ore"
+    },
+    {
+      "name": "VerumBlock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verum_block"
+    },
+    {
+      "name": "VerumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verum_ore_block_recipe"
+    },
+    {
+      "name": "VerumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verum_block_ore_recipe"
+    },
+    {
+      "name": "VerumOreSmelting",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "verum_ore_smelting"
+    },
+    {
+      "name": "TotalisGem",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_gem"
+    },
+    {
+      "name": "TotalisGemRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_gem_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.defconttwo.adstutus_block": "Block of Adstutus",
+      "item.defconttwo.totalis_gem": "Totalis Gem",
+      "block.defconttwo.verum_ore": "Verum Ore",
+      "block.defconttwo.adstutus_ore": "Adstutus Ore",
+      "block.def_cont_two.adstutus_block": "Block of Adstutus",
+      "block.defconttwo.observantia_ore": "Observantia Ore",
+      "block.defconttwo.verum_block": "Block of Verum",
+      "block.defconttwo.robur_ore": "Robur Ore",
+      "item.def_cont_two.adstutus": "Adstutus",
+      "item.defconttwo.robur": "Robur",
+      "item.defconttwo.observantia": "Observantia",
+      "block.def_cont_two.adstutus_ore": "Adstutus Ore",
+      "item.defconttwo.verum": "Verum",
+      "block.defconttwo.robur_block": "Block of Robur",
+      "block.defconttwo.observantia_block": "Block of Observantia",
+      "item.defconttwo.adstutus": "Adstutus"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "defconttwo",
+    "modName": "definitivecontentmodii",
+    "version": "0.0.1",
+    "description": "A lot of ores.",
+    "author": "Camely",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.19.2",
+    "credits": "MCreator, RanidGames",
+    "modElementsPackage": "com.camelychan.defconttwo",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

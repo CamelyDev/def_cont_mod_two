@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Adstutus"
+      },
+      {
+        "value": "CUSTOM:Verum"
+      },
+      {
+        "value": "CUSTOM:Adstutus"
+      },
+      {
+        "value": "CUSTOM:Robur"
+      },
+      {
+        "value": "CUSTOM:Verum"
+      },
+      {
+        "value": "CUSTOM:Robur"
+      },
+      {
+        "value": "CUSTOM:Observantia"
+      },
+      {
+        "value": "CUSTOM:Verum"
+      },
+      {
+        "value": "CUSTOM:Observantia"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TotalisGem"
+    },
+    "name": "totalis_gem_recipe",
+    "namespace": "mod"
+  }
+}

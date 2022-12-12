@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:robur"
+    },
+    "1": {
+      "item": "defconttwo:robur"
+    },
+    "2": {
+      "item": "defconttwo:robur"
+    },
+    "3": {
+      "item": "defconttwo:robur"
+    },
+    "4": {
+      "item": "defconttwo:robur"
+    },
+    "5": {
+      "item": "defconttwo:robur"
+    },
+    "6": {
+      "item": "defconttwo:robur"
+    },
+    "7": {
+      "item": "defconttwo:robur"
+    },
+    "8": {
+      "item": "defconttwo:robur"
+    }
+  },
+  "result": {
+    "item": "defconttwo:robur_block",
+    "count": 1
+  }
+}

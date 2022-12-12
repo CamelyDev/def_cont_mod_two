@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "defconttwo:blocks/adstutus_ore",
+    "particle": "defconttwo:blocks/adstutus_ore"
+  }
+}
