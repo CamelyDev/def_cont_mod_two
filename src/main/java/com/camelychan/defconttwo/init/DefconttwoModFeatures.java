@@ -16,8 +16,11 @@ import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import java.util.function.Predicate;
 
 import com.camelychan.defconttwo.world.features.ores.VerumOreFeature;
+import com.camelychan.defconttwo.world.features.ores.TenebrisOreFeature;
 import com.camelychan.defconttwo.world.features.ores.RoburOreFeature;
 import com.camelychan.defconttwo.world.features.ores.ObservantiaOreFeature;
+import com.camelychan.defconttwo.world.features.ores.LuxOreFeature;
+import com.camelychan.defconttwo.world.features.ores.CalumniaOreFeature;
 import com.camelychan.defconttwo.world.features.ores.AdstutusOreFeature;
 import com.camelychan.defconttwo.DefconttwoMod;
 
@@ -28,6 +31,9 @@ public class DefconttwoModFeatures {
 				GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("robur_ore", RoburOreFeature.feature(), RoburOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("verum_ore", VerumOreFeature.feature(), VerumOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("calumnia_ore", CalumniaOreFeature.feature(), CalumniaOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("lux_ore", LuxOreFeature.feature(), LuxOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("tenebris_ore", TenebrisOreFeature.feature(), TenebrisOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 	}
 
 	private static void register(String registryName, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration genStep) {

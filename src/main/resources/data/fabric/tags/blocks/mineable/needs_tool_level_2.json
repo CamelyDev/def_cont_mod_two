@@ -8,6 +8,9 @@
     "defconttwo:robur_ore",
     "defconttwo:robur_block",
     "defconttwo:verum_ore",
-    "defconttwo:verum_block"
+    "defconttwo:verum_block",
+    "defconttwo:calumnia_block",
+    "defconttwo:lux_block",
+    "defconttwo:tenebris_block"
   ]
 }

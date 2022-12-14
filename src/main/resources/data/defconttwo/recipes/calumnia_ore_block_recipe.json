@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:calumnia"
+    },
+    "1": {
+      "item": "defconttwo:calumnia"
+    },
+    "2": {
+      "item": "defconttwo:calumnia"
+    },
+    "3": {
+      "item": "defconttwo:calumnia"
+    },
+    "4": {
+      "item": "defconttwo:calumnia"
+    },
+    "5": {
+      "item": "defconttwo:calumnia"
+    },
+    "6": {
+      "item": "defconttwo:calumnia"
+    },
+    "7": {
+      "item": "defconttwo:calumnia"
+    },
+    "8": {
+      "item": "defconttwo:calumnia"
+    }
+  },
+  "result": {
+    "item": "defconttwo:calumnia_block",
+    "count": 1
+  }
+}

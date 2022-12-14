@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:verum"
+    },
+    "1": {
+      "item": "defconttwo:verum"
+    },
+    "2": {
+      "item": "defconttwo:verum"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "defconttwo:truth_pickaxe",
+    "count": 1
+  }
+}

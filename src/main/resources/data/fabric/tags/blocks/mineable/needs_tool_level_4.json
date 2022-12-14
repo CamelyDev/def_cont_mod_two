@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "defconttwo:lux_ore",
+    "defconttwo:tenebris_ore"
+  ]
 }

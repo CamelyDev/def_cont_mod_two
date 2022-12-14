@@ -13,7 +13,7 @@ import java.util.List;
 
 public class TotalisGemItem extends Item {
 	public TotalisGemItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(32).fireResistant().rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(6).fireResistant().rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

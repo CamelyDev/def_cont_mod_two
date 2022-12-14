@@ -207,28 +207,971 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "totalis_gem_recipe"
+    },
+    {
+      "name": "TotalisPickaxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_pickaxe"
+    },
+    {
+      "name": "TotalisAxe",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_axe"
+    },
+    {
+      "name": "TotalisSword",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_sword"
+    },
+    {
+      "name": "TotalisShovel",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_shovel"
+    },
+    {
+      "name": "TotalisHoe",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_hoe"
+    },
+    {
+      "name": "TotalisPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_pickaxe_recipe"
+    },
+    {
+      "name": "TotalisAxeRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_axe_recipe"
+    },
+    {
+      "name": "TotalisSwordRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_sword_recipe"
+    },
+    {
+      "name": "TotalisShovelRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_shovel_recipe"
+    },
+    {
+      "name": "TotalisHoeRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_hoe_recipe"
+    },
+    {
+      "name": "Calumnia",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calumnia"
+    },
+    {
+      "name": "CalumniaOre",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calumnia_ore"
+    },
+    {
+      "name": "CalumniaBlock",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calumnia_block"
+    },
+    {
+      "name": "CalumniaOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calumnia_ore_block_recipe"
+    },
+    {
+      "name": "CalumniaBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calumnia_block_ore_recipe"
+    },
+    {
+      "name": "CalumniaOreSmelting",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calumnia_ore_smelting"
+    },
+    {
+      "name": "StateraGem",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_gem"
+    },
+    {
+      "name": "StateraGemRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_gem_recipe"
+    },
+    {
+      "name": "Lux",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lux"
+    },
+    {
+      "name": "LuxOre",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lux_ore"
+    },
+    {
+      "name": "LuxBlock",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lux_block"
+    },
+    {
+      "name": "LuxOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lux_ore_block_recipe"
+    },
+    {
+      "name": "LuxBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lux_block_ore_recipe"
+    },
+    {
+      "name": "LuxOreSmelting",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lux_ore_smelting"
+    },
+    {
+      "name": "TenebrisIngot",
+      "type": "item",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebris_ingot"
+    },
+    {
+      "name": "TenebrisOre",
+      "type": "block",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebris_ore"
+    },
+    {
+      "name": "TenebrisBlock",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebris_block"
+    },
+    {
+      "name": "TenebrisOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebris_ore_block_recipe"
+    },
+    {
+      "name": "TenebrisBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebris_block_ore_recipe"
+    },
+    {
+      "name": "TenebrisOreSmelting",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tenebris_ore_smelting"
+    },
+    {
+      "name": "StateraGemRecipe2",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_gem_recipe_2"
+    },
+    {
+      "name": "StateraPickaxe",
+      "type": "tool",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_pickaxe"
+    },
+    {
+      "name": "StateraAxe",
+      "type": "tool",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_axe"
+    },
+    {
+      "name": "StateraSword",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_sword"
+    },
+    {
+      "name": "StateraShovel",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_shovel"
+    },
+    {
+      "name": "StateraHoe",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_hoe"
+    },
+    {
+      "name": "StateraPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_pickaxe_recipe"
+    },
+    {
+      "name": "StateraAxeRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_axe_recipe"
+    },
+    {
+      "name": "StateraSwordRecipe",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_sword_recipe"
+    },
+    {
+      "name": "StateraShovelRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_shovel_recipe"
+    },
+    {
+      "name": "StateraHoeRecipe",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_hoe_recipe"
+    },
+    {
+      "name": "CleverPickaxe",
+      "type": "tool",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clever_pickaxe"
+    },
+    {
+      "name": "CleverAxe",
+      "type": "tool",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clever_axe"
+    },
+    {
+      "name": "CleverSword",
+      "type": "tool",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clever_sword"
+    },
+    {
+      "name": "CleverShovel",
+      "type": "tool",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clever_shovel"
+    },
+    {
+      "name": "CleverHoe",
+      "type": "tool",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clever_hoe"
+    },
+    {
+      "name": "CleverPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clever_pickaxe_recipe"
+    },
+    {
+      "name": "CleverAxeRecipe",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clever_axe_recipe"
+    },
+    {
+      "name": "CleverSwordRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clever_sword_recipe"
+    },
+    {
+      "name": "CleverShovelRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clever_shovel_recipe"
+    },
+    {
+      "name": "CleverHoeRecipe",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clever_hoe_recipe"
+    },
+    {
+      "name": "WatcherPickaxe",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watcher_pickaxe"
+    },
+    {
+      "name": "WatcherAxe",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watcher_axe"
+    },
+    {
+      "name": "WatcherSword",
+      "type": "tool",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watcher_sword"
+    },
+    {
+      "name": "WatcherShovel",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watcher_shovel"
+    },
+    {
+      "name": "WatcherHoe",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watcher_hoe"
+    },
+    {
+      "name": "WatcherPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watcher_pickaxe_recipe"
+    },
+    {
+      "name": "WatcherAxeRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watcher_axe_recipe"
+    },
+    {
+      "name": "WatcherSwordRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watcher_sword_recipe"
+    },
+    {
+      "name": "WatcherShovelRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watcher_shovel_recipe"
+    },
+    {
+      "name": "WatcherHoeRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "watcher_hoe_recipe"
+    },
+    {
+      "name": "StrongPickaxe",
+      "type": "tool",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strong_pickaxe"
+    },
+    {
+      "name": "StrongAxe",
+      "type": "tool",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strong_axe"
+    },
+    {
+      "name": "StrongSword",
+      "type": "tool",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strong_sword"
+    },
+    {
+      "name": "StrongShovel",
+      "type": "tool",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strong_shovel"
+    },
+    {
+      "name": "StrongHoe",
+      "type": "tool",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strong_hoe"
+    },
+    {
+      "name": "StrongPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strong_pickaxe_recipe"
+    },
+    {
+      "name": "StrongAxeRecipe",
+      "type": "recipe",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strong_axe_recipe"
+    },
+    {
+      "name": "StrongSwordRecipe",
+      "type": "recipe",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strong_sword_recipe"
+    },
+    {
+      "name": "StrongShovelRecipe",
+      "type": "recipe",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strong_shovel_recipe"
+    },
+    {
+      "name": "StrongHoeRecipe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "strong_hoe_recipe"
+    },
+    {
+      "name": "TruthPickaxe",
+      "type": "tool",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truth_pickaxe"
+    },
+    {
+      "name": "TruthAxe",
+      "type": "tool",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truth_axe"
+    },
+    {
+      "name": "TruthSword",
+      "type": "tool",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truth_sword"
+    },
+    {
+      "name": "TruthShovel",
+      "type": "tool",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truth_shovel"
+    },
+    {
+      "name": "TruthHoe",
+      "type": "tool",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truth_hoe"
+    },
+    {
+      "name": "TruthPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truth_pickaxe_recipe"
+    },
+    {
+      "name": "TruthAxeRecipe",
+      "type": "recipe",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truth_axe_recipe"
+    },
+    {
+      "name": "TruthSwordRecipe",
+      "type": "recipe",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truth_sword_recipe"
+    },
+    {
+      "name": "TruthShovelRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truth_shovel_recipe"
+    },
+    {
+      "name": "TruthHoeRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "truth_hoe_recipe"
+    },
+    {
+      "name": "LyingPickaxe",
+      "type": "tool",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lying_pickaxe"
+    },
+    {
+      "name": "LyingAxe",
+      "type": "tool",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lying_axe"
+    },
+    {
+      "name": "LyingSword",
+      "type": "tool",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lying_sword"
+    },
+    {
+      "name": "LyingShovel",
+      "type": "tool",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lying_shovel"
+    },
+    {
+      "name": "LyingHoe",
+      "type": "tool",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lying_hoe"
+    },
+    {
+      "name": "LyingPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lying_pickaxe_recipe"
+    },
+    {
+      "name": "LyingAxeRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lying_axe_recipe"
+    },
+    {
+      "name": "LyingSwordRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lying_sword_recipe"
+    },
+    {
+      "name": "LyingShovelRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lying_shovel_recipe"
+    },
+    {
+      "name": "LyingHoeRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lying_hoe_recipe"
+    },
+    {
+      "name": "LightPickaxe",
+      "type": "tool",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_pickaxe"
+    },
+    {
+      "name": "LightAxe",
+      "type": "tool",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_axe"
+    },
+    {
+      "name": "LightSword",
+      "type": "tool",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_sword"
+    },
+    {
+      "name": "LightShovel",
+      "type": "tool",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_shovel"
+    },
+    {
+      "name": "LightHoe",
+      "type": "tool",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_hoe"
+    },
+    {
+      "name": "LightPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_pickaxe_recipe"
+    },
+    {
+      "name": "LightAxeRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_axe_recipe"
+    },
+    {
+      "name": "LightSwordRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_sword_recipe"
+    },
+    {
+      "name": "LightShovelRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_shovel_recipe"
+    },
+    {
+      "name": "LightHoeRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_hoe_recipe"
+    },
+    {
+      "name": "DarkPickaxe",
+      "type": "tool",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_pickaxe"
+    },
+    {
+      "name": "DarkAxe",
+      "type": "tool",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_axe"
+    },
+    {
+      "name": "DarkSword",
+      "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_sword"
+    },
+    {
+      "name": "DarkShovel",
+      "type": "tool",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_shovel"
+    },
+    {
+      "name": "DarkHoe",
+      "type": "tool",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_hoe"
+    },
+    {
+      "name": "DarkPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_pickaxe_recipe"
+    },
+    {
+      "name": "DarkAxeRecipe",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_axe_recipe"
+    },
+    {
+      "name": "DarkSwordRecipe",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_sword_recipe"
+    },
+    {
+      "name": "DarkShovelRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_shovel_recipe"
+    },
+    {
+      "name": "DarkHoeRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_hoe_recipe"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.defconttwo.adstutus_block": "Block of Adstutus",
+      "item.defconttwo.light_pickaxe": "Light Pickaxe",
       "item.defconttwo.totalis_gem": "Totalis Gem",
-      "block.defconttwo.verum_ore": "Verum Ore",
-      "block.defconttwo.adstutus_ore": "Adstutus Ore",
-      "block.def_cont_two.adstutus_block": "Block of Adstutus",
+      "item.defconttwo.lying_pickaxe": "Lying Pickaxe",
+      "item.defconttwo.dark_sword": "Dark Sword",
       "block.defconttwo.observantia_ore": "Observantia Ore",
+      "item.defconttwo.statera_axe": "Statera Axe",
+      "item.defconttwo.light_sword": "Light Sword",
+      "item.defconttwo.truth_sword": "Truth Sword",
+      "block.def_cont_two.adstutus_ore": "Adstutus Ore",
+      "item.defconttwo.light_axe": "Light Axe",
+      "item.defconttwo.truth_hoe": "Truth Hoe",
+      "block.defconttwo.tenebris_ore": "Tenebris Ore",
+      "item.defconttwo.watcher_sword": "Watcher Sword",
+      "block.defconttwo.adstutus_block": "Block of Adstutus",
+      "item.defconttwo.statera_shovel": "Statera Shovel",
+      "item.defconttwo.strong_pickaxe": "Strong Pickaxe",
+      "block.defconttwo.lux_ore": "Lux Ore",
       "block.defconttwo.verum_block": "Block of Verum",
       "block.defconttwo.robur_ore": "Robur Ore",
-      "item.def_cont_two.adstutus": "Adstutus",
+      "block.defconttwo.calumnia_ore": "Calumnia Ore",
       "item.defconttwo.robur": "Robur",
-      "item.defconttwo.observantia": "Observantia",
-      "block.def_cont_two.adstutus_ore": "Adstutus Ore",
+      "item.defconttwo.statera_pickaxe": "Statera Pickaxe",
       "item.defconttwo.verum": "Verum",
+      "item.defconttwo.strong_axe": "Strong Axe",
+      "item.defconttwo.totalis_axe": "Totalis Axe",
       "block.defconttwo.robur_block": "Block of Robur",
+      "item.defconttwo.clever_hoe": "Clever Hoe",
+      "item.defconttwo.clever_pickaxe": "Clever Pickaxe",
+      "item.defconttwo.truth_shovel": "Truth Shovel",
+      "item.defconttwo.clever_shovel": "Clever Shovel",
+      "item.defconttwo.truth_pickaxe": "Truth Pickaxe",
+      "item.defconttwo.dark_pickaxe": "Dark Pickaxe",
+      "item.defconttwo.statera_hoe": "Statera Hoe",
+      "item.defconttwo.lying_sword": "Lying Sword",
+      "item.defconttwo.totalis_shovel": "Totalis Shovel",
+      "block.defconttwo.verum_ore": "Verum Ore",
+      "item.defconttwo.clever_sword": "Clever Sword",
+      "item.defconttwo.watcher_pickaxe": "Watcher Pickaxe",
+      "item.defconttwo.strong_hoe": "Strong Hoe",
+      "block.def_cont_two.adstutus_block": "Block of Adstutus",
+      "item.defconttwo.watcher_hoe": "Watcher Hoe",
+      "item.defconttwo.totalis_pickaxe": "Totalis Pickaxe",
+      "item.defconttwo.dark_shovel": "Dark Shovel",
+      "item.defconttwo.truth_axe": "Truth Axe",
+      "item.defconttwo.dark_axe": "Dark Axe",
+      "item.defconttwo.statera_gem": "Statera Gem",
+      "item.defconttwo.observantia": "Observantia",
+      "item.defconttwo.calumnia": "Calumnia",
+      "item.defconttwo.lying_hoe": "Lying Hoe",
+      "block.defconttwo.calumnia_block": "Block of Calumnia",
+      "item.defconttwo.totalis_sword": "Totalis Sword",
+      "block.defconttwo.tenebris_block": "Block of Tenebris",
       "block.defconttwo.observantia_block": "Block of Observantia",
-      "item.defconttwo.adstutus": "Adstutus"
+      "item.defconttwo.adstutus": "Adstutus",
+      "item.defconttwo.tenebris_ingot": "Tenebris",
+      "item.defconttwo.light_shovel": "Light Shovel",
+      "item.defconttwo.lux": "Lux",
+      "item.defconttwo.lying_axe": "Lying Axe",
+      "item.defconttwo.dark_hoe": "Dark Hoe",
+      "block.defconttwo.lux_block": "Block of Lux",
+      "block.defconttwo.adstutus_ore": "Adstutus Ore",
+      "item.defconttwo.totalis_hoe": "Totalis Hoe",
+      "item.defconttwo.clever_axe": "Clever Axe",
+      "item.defconttwo.light_hoe": "Light Hoe",
+      "item.def_cont_two.adstutus": "Adstutus",
+      "item.defconttwo.watcher_shovel": "Watcher Shovel",
+      "item.defconttwo.strong_sword": "Strong Sword",
+      "item.defconttwo.watcher_axe": "Watcher Axe",
+      "item.defconttwo.lying_shovel": "Lying Shovel",
+      "item.defconttwo.strong_shovel": "Strong Shovel",
+      "item.defconttwo.statera_sword": "Statera Sword"
     }
   },
   "foldersRoot": {
@@ -237,12 +1180,12 @@
   },
   "workspaceSettings": {
     "modid": "defconttwo",
-    "modName": "definitivecontentmodii",
+    "modName": "Definitive Content Mod II: Electric Boogaloo",
     "version": "0.0.1",
     "description": "A lot of ores.",
     "author": "Camely",
     "license": "Academic Free License v3.0",
-    "disableForgeVersionCheck": true,
+    "disableForgeVersionCheck": false,
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [],

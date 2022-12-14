@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Verum"
+      },
+      {
+        "value": "CUSTOM:Observantia"
+      },
+      {
+        "value": "CUSTOM:Adstutus"
+      },
+      {
+        "value": "CUSTOM:TotalisGem"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": "CUSTOM:Calumnia"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:StateraGem"
+    },
+    "name": "statera_gem_recipe",
+    "namespace": "mod"
+  }
+}

@@ -28,13 +28,13 @@
         "value": "CUSTOM:Robur"
       },
       {
-        "value": "CUSTOM:Observantia"
-      },
-      {
-        "value": "CUSTOM:Verum"
+        "value": ""
       },
       {
         "value": "CUSTOM:Observantia"
+      },
+      {
+        "value": ""
       }
     ],
     "recipeReturnStack": {

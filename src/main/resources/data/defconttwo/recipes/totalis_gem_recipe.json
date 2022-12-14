@@ -3,7 +3,7 @@
   "pattern": [
     "012",
     "345",
-    "678"
+    " 7 "
   ],
   "key": {
     "0": {
@@ -24,13 +24,7 @@
     "5": {
       "item": "defconttwo:robur"
     },
-    "6": {
-      "item": "defconttwo:observantia"
-    },
     "7": {
-      "item": "defconttwo:verum"
-    },
-    "8": {
       "item": "defconttwo:observantia"
     }
   },
