@@ -2,51 +2,45 @@
   "_fv": 34,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
-    "xpReward": 0.7,
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
     "cookingTime": 200,
     "recipeRetstackSize": 1,
     "group": "",
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:Robur"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Robur"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Robur"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Robur"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Robur"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Robur"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Robur"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Robur"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Robur"
       }
     ],
     "recipeReturnStack": {
-      "value": ""
+      "value": "CUSTOM:RoburBlock"
     },
-    "smeltingInputStack": {
-      "value": "CUSTOM:CalumniaOre"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:Calumnia"
-    },
-    "name": "calumnia_ore_smelting",
+    "name": "robur_ore_block_recipe",
     "namespace": "mod"
   }
 }

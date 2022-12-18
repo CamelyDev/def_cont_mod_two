@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": ""
+        "value": "CUSTOM:TenebrisIngot"
       },
       {
-        "value": "CUSTOM:Verum"
+        "value": "CUSTOM:TenebrisIngot"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TenebrisIngot"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TruthShovel"
+      "value": "CUSTOM:DarkPickaxe"
     },
-    "name": "truth_shovel_recipe",
+    "name": "dark_pickaxe_recipe",
     "namespace": "mod"
   }
 }

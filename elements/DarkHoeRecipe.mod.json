@@ -10,13 +10,13 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:TenebrisIngot"
+        "value": "CUSTOM:Observantia"
       },
       {
-        "value": "CUSTOM:TenebrisIngot"
+        "value": "CUSTOM:Observantia"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Observantia"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:DarkHoe"
+      "value": "CUSTOM:WatcherPickaxe"
     },
-    "name": "dark_hoe_recipe",
+    "name": "watcher_pickaxe_recipe",
     "namespace": "mod"
   }
 }

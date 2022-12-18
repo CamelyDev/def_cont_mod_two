@@ -10,16 +10,16 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Observantia"
+        "value": "CUSTOM:Robur"
       },
       {
-        "value": "CUSTOM:Observantia"
+        "value": "CUSTOM:Robur"
       },
       {
         "value": ""
       },
       {
-        "value": "CUSTOM:Observantia"
+        "value": "CUSTOM:Robur"
       },
       {
         "value": "Items.STICK"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:WatcherAxe"
+      "value": "CUSTOM:StrongAxe"
     },
-    "name": "watcher_axe_recipe",
+    "name": "strong_axe_recipe",
     "namespace": "mod"
   }
 }

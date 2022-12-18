@@ -10,37 +10,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "CUSTOM:Lux"
+      },
+      {
+        "value": "CUSTOM:Lux"
+      },
+      {
+        "value": "CUSTOM:Lux"
+      },
+      {
         "value": ""
       },
       {
-        "value": "CUSTOM:Verum"
+        "value": "Items.STICK"
       },
       {
-        "value": "CUSTOM:Observantia"
+        "value": ""
       },
       {
-        "value": "CUSTOM:Adstutus"
+        "value": ""
       },
       {
-        "value": "CUSTOM:TotalisGem"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
-      },
-      {
-        "value": "CUSTOM:Calumnia"
-      },
-      {
-        "value": "Items.GOLD_INGOT"
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:StateraGem"
+      "value": "CUSTOM:LightPickaxe"
     },
-    "name": "statera_gem_recipe",
+    "name": "light_pickaxe_recipe",
     "namespace": "mod"
   }
 }

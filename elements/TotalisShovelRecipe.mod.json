@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:TotalisGem"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:TotalisShovel"
+      "value": "CUSTOM:TotalisSword"
     },
-    "name": "totalis_shovel_recipe",
+    "name": "totalis_sword_recipe",
     "namespace": "mod"
   }
 }

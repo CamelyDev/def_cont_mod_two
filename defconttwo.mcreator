@@ -1103,8 +1103,8 @@
     "en_us": {
       "item.defconttwo.light_pickaxe": "Light Pickaxe",
       "item.defconttwo.totalis_gem": "Totalis Gem",
-      "item.defconttwo.lying_pickaxe": "Lying Pickaxe",
       "item.defconttwo.dark_sword": "Dark Sword",
+      "item.defconttwo.lying_pickaxe": "Lying Pickaxe",
       "block.defconttwo.observantia_ore": "Observantia Ore",
       "item.defconttwo.statera_axe": "Statera Axe",
       "item.defconttwo.light_sword": "Light Sword",
@@ -1184,6 +1184,7 @@
     "version": "0.0.1",
     "description": "A lot of ores.",
     "author": "Camely",
+    "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": false,
     "serverSideOnly": false,
