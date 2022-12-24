@@ -13,32 +13,12 @@ import java.util.List;
 
 public class StateraGemItem extends Item {
 	public StateraGemItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).durability(12).fireResistant().rarity(Rarity.UNCOMMON));
-	}
-
-	@Override
-	public boolean hasCraftingRemainingItem() {
-		return true;
-	}
-
-	@Override
-	public ItemStack getRecipeRemainder(ItemStack itemstack) {
-		ItemStack retval = new ItemStack(this);
-		retval.setDamageValue(itemstack.getDamageValue() + 1);
-		if (retval.getDamageValue() >= retval.getMaxDamage()) {
-			return ItemStack.EMPTY;
-		}
-		return retval;
+		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).fireResistant().rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
 	public int getUseDuration(ItemStack itemstack) {
 		return 0;
-	}
-
-	@Override
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
 	}
 
 	@Override

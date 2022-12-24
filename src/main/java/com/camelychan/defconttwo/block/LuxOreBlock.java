@@ -20,6 +20,7 @@ import net.fabricmc.api.EnvType;
 import java.util.List;
 import java.util.Collections;
 
+import com.camelychan.defconttwo.init.DefconttwoModItems;
 import com.camelychan.defconttwo.init.DefconttwoModBlocks;
 
 public class LuxOreBlock extends Block {
@@ -40,7 +41,7 @@ public class LuxOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(DefconttwoModItems.LUX));
 	}
 
 	@Environment(EnvType.CLIENT)

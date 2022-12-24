@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:InfernumIngot"
+      },
+      {
+        "value": "CUSTOM:DarkDemonHeart"
+      },
+      {
+        "value": "CUSTOM:InfernumIngot"
+      },
+      {
+        "value": "CUSTOM:TenebrisIngot"
+      },
+      {
+        "value": "CUSTOM:TenebrisIngot"
+      },
+      {
+        "value": "CUSTOM:TenebrisIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DemonicIngot"
+    },
+    "name": "demonic_ingot_recipe",
+    "namespace": "mod"
+  }
+}

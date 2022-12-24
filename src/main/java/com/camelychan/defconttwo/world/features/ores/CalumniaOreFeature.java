@@ -44,7 +44,7 @@ public class CalumniaOreFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("defconttwo:calumnia_ore", FEATURE,
 				new OreConfiguration(CalumniaOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.CALUMNIA_ORE.defaultBlockState(), 5));
 		PLACED_FEATURE = PlacementUtils.register("defconttwo:calumnia_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
+				List.of(CountPlacement.of(3), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(32)), BiomeFilter.biome()));
 		return FEATURE;
 	}

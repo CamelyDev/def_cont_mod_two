@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:cobaltium_dust"
+    },
+    "1": {
+      "item": "defconttwo:cobaltium_dust"
+    },
+    "2": {
+      "item": "defconttwo:cobaltium_dust"
+    },
+    "3": {
+      "item": "defconttwo:cobaltium_dust"
+    },
+    "5": {
+      "item": "defconttwo:cobaltium_dust"
+    },
+    "6": {
+      "item": "defconttwo:cobaltium_dust"
+    },
+    "8": {
+      "item": "defconttwo:cobaltium_dust"
+    }
+  },
+  "result": {
+    "item": "defconttwo:cobaltium_armor_leggings",
+    "count": 1
+  }
+}

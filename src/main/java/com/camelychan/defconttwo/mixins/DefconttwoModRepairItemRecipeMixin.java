@@ -29,10 +29,7 @@ public abstract class DefconttwoModRepairItemRecipeMixin {
 				continue;
 			list.add(itemStack);
 		}
-		if ((itemStack3 = (ItemStack) list.get(0)).is((DefconttwoModItems.TOTALIS_GEM))) {
-			cir.setReturnValue(ItemStack.EMPTY);
-		}
-		if ((itemStack3 = (ItemStack) list.get(0)).is((DefconttwoModItems.STATERA_GEM))) {
+		if ((itemStack3 = (ItemStack) list.get(0)).is((DefconttwoModItems.DARK_DEMON_HEART))) {
 			cir.setReturnValue(ItemStack.EMPTY);
 		}
 	}

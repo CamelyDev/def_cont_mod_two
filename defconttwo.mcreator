@@ -1095,6 +1095,968 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dark_hoe_recipe"
+    },
+    {
+      "name": "TotalisArmor",
+      "type": "armor",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "TotalisArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_armor_helmet_recipe"
+    },
+    {
+      "name": "TotalisArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_armor_body_recipe"
+    },
+    {
+      "name": "TotalisArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_armor_leggings_recipe"
+    },
+    {
+      "name": "TotalisArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "totalis_armor_boots_recipe"
+    },
+    {
+      "name": "StateraArmor",
+      "type": "armor",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "StateraArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_armor_helmet_recipe"
+    },
+    {
+      "name": "StateraArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_armor_body_recipe"
+    },
+    {
+      "name": "StateraArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_armor_leggings_recipe"
+    },
+    {
+      "name": "StateraArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statera_armor_boots_recipe"
+    },
+    {
+      "name": "AbnormisIngot",
+      "type": "item",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_ingot"
+    },
+    {
+      "name": "AbnormisOre",
+      "type": "block",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_ore"
+    },
+    {
+      "name": "AbnormisBlock",
+      "type": "block",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_block"
+    },
+    {
+      "name": "AbnormisOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_ore_block_recipe"
+    },
+    {
+      "name": "AbnormisBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_block_ore_recipe"
+    },
+    {
+      "name": "AbnormisOreSmelting",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_ore_smelting"
+    },
+    {
+      "name": "BasisIngot",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_ingot"
+    },
+    {
+      "name": "BasisOre",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_ore"
+    },
+    {
+      "name": "BasisBlock",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_block"
+    },
+    {
+      "name": "BasisOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_ore_block_recipe"
+    },
+    {
+      "name": "BasisBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_block_ore_recipe"
+    },
+    {
+      "name": "BasisOreSmelting",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_ore_smelting"
+    },
+    {
+      "name": "InfernumDust",
+      "type": "item",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_dust"
+    },
+    {
+      "name": "InfernumOre",
+      "type": "block",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_ore"
+    },
+    {
+      "name": "InfernumBlock",
+      "type": "block",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_block"
+    },
+    {
+      "name": "InfernumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_ore_block_recipe"
+    },
+    {
+      "name": "InfernumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_block_ore_recipe"
+    },
+    {
+      "name": "InfernumOreSmelting",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_ore_smelting"
+    },
+    {
+      "name": "InfernumIngot",
+      "type": "item",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_ingot"
+    },
+    {
+      "name": "InfernumIngotRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_ingot_recipe"
+    },
+    {
+      "name": "InfernumPickaxe",
+      "type": "tool",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_pickaxe"
+    },
+    {
+      "name": "InfernumAxe",
+      "type": "tool",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_axe"
+    },
+    {
+      "name": "InfernumSword",
+      "type": "tool",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_sword"
+    },
+    {
+      "name": "InfernumShovel",
+      "type": "tool",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_shovel"
+    },
+    {
+      "name": "InfernumHoe",
+      "type": "tool",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_hoe"
+    },
+    {
+      "name": "InfernumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_pickaxe_recipe"
+    },
+    {
+      "name": "InfernumAxeRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_axe_recipe"
+    },
+    {
+      "name": "InfernumSwordRecipe",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_sword_recipe"
+    },
+    {
+      "name": "InfernumShovelRecipe",
+      "type": "recipe",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_shovel_recipe"
+    },
+    {
+      "name": "InfernumHoeRecipe",
+      "type": "recipe",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_hoe_recipe"
+    },
+    {
+      "name": "InfernumArmor",
+      "type": "armor",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "InfernumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_armor_helmet_recipe"
+    },
+    {
+      "name": "InfernumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_armor_body_recipe"
+    },
+    {
+      "name": "InfernumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_armor_leggings_recipe"
+    },
+    {
+      "name": "InfernumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infernum_armor_boots_recipe"
+    },
+    {
+      "name": "DarkDemonHeart",
+      "type": "item",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_demon_heart"
+    },
+    {
+      "name": "DarkDemonHeartRecipe",
+      "type": "recipe",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dark_demon_heart_recipe"
+    },
+    {
+      "name": "DemonicIngot",
+      "type": "item",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_ingot"
+    },
+    {
+      "name": "DemonicIngotRecipe",
+      "type": "recipe",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_ingot_recipe"
+    },
+    {
+      "name": "DemonicPickaxe",
+      "type": "tool",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_pickaxe"
+    },
+    {
+      "name": "DemonicAxe",
+      "type": "tool",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_axe"
+    },
+    {
+      "name": "DemonicSword",
+      "type": "tool",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_sword"
+    },
+    {
+      "name": "DemonicShovel",
+      "type": "tool",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_shovel"
+    },
+    {
+      "name": "DemonicHoe",
+      "type": "tool",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_hoe"
+    },
+    {
+      "name": "DemonicPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_pickaxe_recipe"
+    },
+    {
+      "name": "DemonicAxeRecipe",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_axe_recipe"
+    },
+    {
+      "name": "DemonicSwordRecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_sword_recipe"
+    },
+    {
+      "name": "DemonicShovelRecipe",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_shovel_recipe"
+    },
+    {
+      "name": "DemonicHoeRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_hoe_recipe"
+    },
+    {
+      "name": "DemonicArmor",
+      "type": "armor",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "DemonicArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_armor_helmet_recipe"
+    },
+    {
+      "name": "DemonicArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_armor_body_recipe"
+    },
+    {
+      "name": "DemonicArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_armor_leggings_recipe"
+    },
+    {
+      "name": "DemonicArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonic_armor_boots_recipe"
+    },
+    {
+      "name": "AbnormisPickaxe",
+      "type": "tool",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_pickaxe"
+    },
+    {
+      "name": "AbnormisAxe",
+      "type": "tool",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_axe"
+    },
+    {
+      "name": "AbnormisSword",
+      "type": "tool",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_sword"
+    },
+    {
+      "name": "AbnormisShovel",
+      "type": "tool",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_shovel"
+    },
+    {
+      "name": "AbnormisHoe",
+      "type": "tool",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_hoe"
+    },
+    {
+      "name": "AbnormisPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 207,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_pickaxe_recipe"
+    },
+    {
+      "name": "AbnormisAxeRecipe",
+      "type": "recipe",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_axe_recipe"
+    },
+    {
+      "name": "AbnormisSwordRecipe",
+      "type": "recipe",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_sword_recipe"
+    },
+    {
+      "name": "AbnormisShovelRecipe",
+      "type": "recipe",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_shovel_recipe"
+    },
+    {
+      "name": "AbnormisHoeRecipe",
+      "type": "recipe",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_hoe_recipe"
+    },
+    {
+      "name": "BasisPickaxe",
+      "type": "tool",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_pickaxe"
+    },
+    {
+      "name": "BasisAxe",
+      "type": "tool",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_axe"
+    },
+    {
+      "name": "BasisSword",
+      "type": "tool",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_sword"
+    },
+    {
+      "name": "BasisShovel",
+      "type": "tool",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_shovel"
+    },
+    {
+      "name": "BasisHoe",
+      "type": "tool",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_hoe"
+    },
+    {
+      "name": "BasisPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_pickaxe_recipe"
+    },
+    {
+      "name": "BasisAxeRecipe",
+      "type": "recipe",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_axe_recipe"
+    },
+    {
+      "name": "BasisSwordRecipe",
+      "type": "recipe",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_sword_recipe"
+    },
+    {
+      "name": "BasisShovelRecipe",
+      "type": "recipe",
+      "sortid": 220,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_shovel_recipe"
+    },
+    {
+      "name": "BasisHoeRecipe",
+      "type": "recipe",
+      "sortid": 221,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_hoe_recipe"
+    },
+    {
+      "name": "AbnormisArmor",
+      "type": "armor",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "AbnormisArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 223,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_armor_helmet_recipe"
+    },
+    {
+      "name": "AbnormisArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_armor_body_recipe"
+    },
+    {
+      "name": "AbnormisArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_armor_leggings_recipe"
+    },
+    {
+      "name": "AbnormisArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abnormis_armor_boots_recipe"
+    },
+    {
+      "name": "BasisArmor",
+      "type": "armor",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BasisArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_armor_helmet_recipe"
+    },
+    {
+      "name": "BasisArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_armor_body_recipe"
+    },
+    {
+      "name": "BasisArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_armor_leggings_recipe"
+    },
+    {
+      "name": "BasisArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "basis_armor_boots_recipe"
+    },
+    {
+      "name": "CobaltiumDust",
+      "type": "item",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_dust"
+    },
+    {
+      "name": "CobaltiumOre",
+      "type": "block",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_ore"
+    },
+    {
+      "name": "CobaltiumBlock",
+      "type": "block",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_block"
+    },
+    {
+      "name": "CobaltiumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 235,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_ore_block_recipe"
+    },
+    {
+      "name": "CobaltiumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_block_ore_recipe"
+    },
+    {
+      "name": "CobaltiumOreSmelting",
+      "type": "recipe",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_ore_smelting"
+    },
+    {
+      "name": "CobaltiumPickaxe",
+      "type": "tool",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_pickaxe"
+    },
+    {
+      "name": "CobaltiumAxe",
+      "type": "tool",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_axe"
+    },
+    {
+      "name": "CobaltiumSword",
+      "type": "tool",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_sword"
+    },
+    {
+      "name": "CobaltiumShovel",
+      "type": "tool",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_shovel"
+    },
+    {
+      "name": "CobaltiumHoe",
+      "type": "tool",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_hoe"
+    },
+    {
+      "name": "CobaltiumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 243,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_pickaxe_recipe"
+    },
+    {
+      "name": "CobaltiumAxeRecipe",
+      "type": "recipe",
+      "sortid": 244,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_axe_recipe"
+    },
+    {
+      "name": "CobaltiumSwordRecipe",
+      "type": "recipe",
+      "sortid": 245,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_sword_recipe"
+    },
+    {
+      "name": "CobaltiumShovelRecipe",
+      "type": "recipe",
+      "sortid": 246,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_shovel_recipe"
+    },
+    {
+      "name": "CobaltiumHoeRecipe",
+      "type": "recipe",
+      "sortid": 247,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_hoe_recipe"
+    },
+    {
+      "name": "CobaltiumArmor",
+      "type": "armor",
+      "sortid": 248,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CobaltiumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 249,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_armor_helmet_recipe"
+    },
+    {
+      "name": "CobaltiumArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 250,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_armor_body_recipe"
+    },
+    {
+      "name": "CobaltiumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 251,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_armor_leggings_recipe"
+    },
+    {
+      "name": "CobaltiumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 252,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobaltium_armor_boots_recipe"
     }
   ],
   "variable_elements": [],
@@ -1102,75 +2064,143 @@
   "language_map": {
     "en_us": {
       "item.defconttwo.light_pickaxe": "Light Pickaxe",
-      "item.defconttwo.totalis_gem": "Totalis Gem",
+      "item.defconttwo.totalis_armor_leggings": "Totalis Leggings",
+      "item.defconttwo.abnormis_sword": "Abnormis Sword",
       "item.defconttwo.dark_sword": "Dark Sword",
       "item.defconttwo.lying_pickaxe": "Lying Pickaxe",
-      "block.defconttwo.observantia_ore": "Observantia Ore",
+      "item.defconttwo.totalis_armor_boots": "Totalis Boots",
+      "item.defconttwo.infernum_dust": "Infernum",
       "item.defconttwo.statera_axe": "Statera Axe",
       "item.defconttwo.light_sword": "Light Sword",
-      "item.defconttwo.truth_sword": "Truth Sword",
       "block.def_cont_two.adstutus_ore": "Adstutus Ore",
       "item.defconttwo.light_axe": "Light Axe",
-      "item.defconttwo.truth_hoe": "Truth Hoe",
+      "item.defconttwo.basis_armor_helmet": "Basis Helmet",
       "block.defconttwo.tenebris_ore": "Tenebris Ore",
-      "item.defconttwo.watcher_sword": "Watcher Sword",
-      "block.defconttwo.adstutus_block": "Block of Adstutus",
+      "item.defconttwo.demonic_pickaxe": "Demonic Pickaxe",
       "item.defconttwo.statera_shovel": "Statera Shovel",
       "item.defconttwo.strong_pickaxe": "Strong Pickaxe",
-      "block.defconttwo.lux_ore": "Lux Ore",
-      "block.defconttwo.verum_block": "Block of Verum",
       "block.defconttwo.robur_ore": "Robur Ore",
-      "block.defconttwo.calumnia_ore": "Calumnia Ore",
+      "item.defconttwo.basis_armor_leggings": "Basis Leggings",
       "item.defconttwo.robur": "Robur",
+      "item.defconttwo.cobaltium_armor_boots": "Cobaltium Boots",
+      "item.defconttwo.statera_armor_leggings": "Statera Leggings",
       "item.defconttwo.statera_pickaxe": "Statera Pickaxe",
+      "item.defconttwo.abnormis_ingot": "Abnormis",
+      "item.defconttwo.abnormis_pickaxe": "Abnormis Pickaxe",
       "item.defconttwo.verum": "Verum",
-      "item.defconttwo.strong_axe": "Strong Axe",
       "item.defconttwo.totalis_axe": "Totalis Axe",
       "block.defconttwo.robur_block": "Block of Robur",
       "item.defconttwo.clever_hoe": "Clever Hoe",
       "item.defconttwo.clever_pickaxe": "Clever Pickaxe",
       "item.defconttwo.truth_shovel": "Truth Shovel",
+      "item.defconttwo.cobaltium_armor_chestplate": "Cobaltium Chestplate",
       "item.defconttwo.clever_shovel": "Clever Shovel",
       "item.defconttwo.truth_pickaxe": "Truth Pickaxe",
       "item.defconttwo.dark_pickaxe": "Dark Pickaxe",
-      "item.defconttwo.statera_hoe": "Statera Hoe",
       "item.defconttwo.lying_sword": "Lying Sword",
+      "block.defconttwo.basis_block": "Block of Basis",
+      "item.defconttwo.infernum_ingot": "Infernum Ingot",
+      "item.defconttwo.infernum_armor_boots": "Infernum Boots",
       "item.defconttwo.totalis_shovel": "Totalis Shovel",
       "block.defconttwo.verum_ore": "Verum Ore",
-      "item.defconttwo.clever_sword": "Clever Sword",
-      "item.defconttwo.watcher_pickaxe": "Watcher Pickaxe",
-      "item.defconttwo.strong_hoe": "Strong Hoe",
+      "item.defconttwo.abnormis_axe": "Abnormis Axe",
       "block.def_cont_two.adstutus_block": "Block of Adstutus",
       "item.defconttwo.watcher_hoe": "Watcher Hoe",
       "item.defconttwo.totalis_pickaxe": "Totalis Pickaxe",
+      "item.defconttwo.infernum_hoe": "Infernum Hoe",
+      "item.defconttwo.abnormis_shovel": "Abnormis Shovel",
+      "item.defconttwo.observantia": "Observantia",
+      "block.defconttwo.calumnia_block": "Block of Calumnia",
+      "item.defconttwo.adstutus": "Adstutus",
+      "block.defconttwo.lux_block": "Block of Lux",
+      "block.defconttwo.abnormis_block": "Block of Abnormis",
+      "item.defconttwo.totalis_hoe": "Totalis Hoe",
+      "item.defconttwo.clever_axe": "Clever Axe",
+      "item.defconttwo.statera_armor_chestplate": "Statera Chestplate",
+      "item.defconttwo.watcher_shovel": "Watcher Shovel",
+      "item.defconttwo.demonic_armor_chestplate": "Demonic Chestplate",
+      "item.defconttwo.strong_sword": "Strong Sword",
+      "item.defconttwo.infernum_shovel": "Infernum Shovel",
+      "item.defconttwo.basis_pickaxe": "Basis Pickaxe",
+      "item.defconttwo.cobaltium_pickaxe": "Cobaltium Pickaxe",
+      "item.defconttwo.watcher_axe": "Watcher Axe",
+      "item.defconttwo.demonic_sword": "Demonic Sword",
+      "item.defconttwo.infernum_axe": "Infernum Axe",
+      "item.defconttwo.infernum_armor_helmet": "Infernum Helmet",
+      "item.defconttwo.totalis_gem": "Totalis Gem",
+      "item.defconttwo.demonic_armor_helmet": "Demonic Helmet",
+      "item.defconttwo.basis_shovel": "Basis Shovel",
+      "item.defconttwo.abnormis_armor_chestplate": "Abnormis Chestplate",
+      "item.defconttwo.basis_hoe": "Basis Hoe",
+      "item.defconttwo.cobaltium_sword": "Cobaltium Sword",
+      "block.defconttwo.infernum_ore": "Infernum Ore",
+      "block.defconttwo.observantia_ore": "Observantia Ore",
+      "item.defconttwo.dark_demon_heart": "Dark Demon Heart",
+      "item.defconttwo.cobaltium_shovel": "Cobaltium Shovel",
+      "item.defconttwo.truth_sword": "Truth Sword",
+      "block.defconttwo.infernum_block": "Block of Infernum",
+      "item.defconttwo.cobaltium_armor_leggings": "Cobaltium Leggings",
+      "item.defconttwo.abnormis_hoe": "Abnormis Hoe",
+      "item.defconttwo.truth_hoe": "Truth Hoe",
+      "item.defconttwo.demonic_axe": "Demonic Axe",
+      "item.defconttwo.watcher_sword": "Watcher Sword",
+      "block.defconttwo.adstutus_block": "Block of Adstutus",
+      "item.defconttwo.demonic_ingot": "Demonic Ingot",
+      "item.defconttwo.statera_armor_helmet": "Statera Helmet",
+      "item.defconttwo.totalis_armor_chestplate": "Totalis Chestplate",
+      "item.defconttwo.abnormis_armor_leggings": "Abnormis Leggings",
+      "item.defconttwo.cobaltium_hoe": "Cobaltium Hoe",
+      "block.defconttwo.lux_ore": "Lux Ore",
+      "block.defconttwo.basis_ore": "Basis Ore",
+      "item.defconttwo.cobaltium_dust": "Cobaltium",
+      "block.defconttwo.verum_block": "Block of Verum",
+      "block.defconttwo.calumnia_ore": "Calumnia Ore",
+      "item.defconttwo.infernum_armor_leggings": "Infernum Leggings",
+      "item.defconttwo.infernum_armor_chestplate": "Infernum Chestplate",
+      "item.defconttwo.basis_axe": "Basis Axe",
+      "item.defconttwo.strong_axe": "Strong Axe",
+      "block.defconttwo.cobaltium_ore": "Cobaltium Ore",
+      "item.defconttwo.statera_hoe": "Statera Hoe",
+      "block.defconttwo.cobaltium_block": "Block of Cobaltium",
+      "item.defconttwo.clever_sword": "Clever Sword",
+      "item.defconttwo.watcher_pickaxe": "Watcher Pickaxe",
+      "item.defconttwo.demonic_armor_boots": "Demonic Boots",
+      "item.defconttwo.basis_sword": "Basis Sword",
+      "item.defconttwo.strong_hoe": "Strong Hoe",
+      "item.defconttwo.totalis_armor_helmet": "Totalis Helmet",
       "item.defconttwo.dark_shovel": "Dark Shovel",
       "item.defconttwo.truth_axe": "Truth Axe",
+      "item.defconttwo.abnormis_armor_helmet": "Abnormis Helmet",
       "item.defconttwo.dark_axe": "Dark Axe",
       "item.defconttwo.statera_gem": "Statera Gem",
-      "item.defconttwo.observantia": "Observantia",
+      "item.defconttwo.demonic_armor_leggings": "Demonic Leggings",
       "item.defconttwo.calumnia": "Calumnia",
       "item.defconttwo.lying_hoe": "Lying Hoe",
-      "block.defconttwo.calumnia_block": "Block of Calumnia",
+      "item.defconttwo.demonic_shovel": "Demonic Shovel",
       "item.defconttwo.totalis_sword": "Totalis Sword",
       "block.defconttwo.tenebris_block": "Block of Tenebris",
       "block.defconttwo.observantia_block": "Block of Observantia",
-      "item.defconttwo.adstutus": "Adstutus",
+      "block.defconttwo.abnormis_ore": "Abnormis Ore",
       "item.defconttwo.tenebris_ingot": "Tenebris",
       "item.defconttwo.light_shovel": "Light Shovel",
       "item.defconttwo.lux": "Lux",
       "item.defconttwo.lying_axe": "Lying Axe",
       "item.defconttwo.dark_hoe": "Dark Hoe",
-      "block.defconttwo.lux_block": "Block of Lux",
+      "item.defconttwo.basis_armor_boots": "Basis Boots",
       "block.defconttwo.adstutus_ore": "Adstutus Ore",
-      "item.defconttwo.totalis_hoe": "Totalis Hoe",
-      "item.defconttwo.clever_axe": "Clever Axe",
       "item.defconttwo.light_hoe": "Light Hoe",
+      "item.defconttwo.basis_ingot": "Basis",
+      "item.defconttwo.infernum_pickaxe": "Infernum Pickaxe",
+      "item.defconttwo.demonic_hoe": "Demonic Hoe",
       "item.def_cont_two.adstutus": "Adstutus",
-      "item.defconttwo.watcher_shovel": "Watcher Shovel",
-      "item.defconttwo.strong_sword": "Strong Sword",
-      "item.defconttwo.watcher_axe": "Watcher Axe",
+      "item.defconttwo.abnormis_armor_boots": "Abnormis Boots",
+      "item.defconttwo.cobaltium_armor_helmet": "Cobaltium Helmet",
       "item.defconttwo.lying_shovel": "Lying Shovel",
+      "item.defconttwo.cobaltium_axe": "Cobaltium Axe",
+      "item.defconttwo.infernum_sword": "Infernum Sword",
+      "item.defconttwo.basis_armor_chestplate": "Basis Chestplate",
       "item.defconttwo.strong_shovel": "Strong Shovel",
+      "item.defconttwo.statera_armor_boots": "Statera Boots",
       "item.defconttwo.statera_sword": "Statera Sword"
     }
   },
@@ -1181,11 +2211,11 @@
   "workspaceSettings": {
     "modid": "defconttwo",
     "modName": "Definitive Content Mod II: Electric Boogaloo",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A lot of ores.",
     "author": "Camely",
-    "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "websiteURL": "https://nosiness.000webhostapp.com",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": false,
     "serverSideOnly": false,
     "requiredMods": [],

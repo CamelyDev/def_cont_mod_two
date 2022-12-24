@@ -8,9 +8,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.AxeItem;
 
-import net.fabricmc.api.Environment;
-import net.fabricmc.api.EnvType;
-
 import com.camelychan.defconttwo.init.DefconttwoModItems;
 
 public class TotalisAxeItem extends AxeItem {
@@ -40,11 +37,5 @@ public class TotalisAxeItem extends AxeItem {
 				return Ingredient.of(new ItemStack(DefconttwoModItems.TOTALIS_GEM));
 			}
 		}, 1, -3.1f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
-	}
-
-	@Override
-	@Environment(EnvType.CLIENT)
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
 	}
 }

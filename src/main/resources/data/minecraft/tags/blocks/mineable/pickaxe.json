@@ -14,6 +14,14 @@
     "defconttwo:lux_ore",
     "defconttwo:lux_block",
     "defconttwo:tenebris_ore",
-    "defconttwo:tenebris_block"
+    "defconttwo:tenebris_block",
+    "defconttwo:abnormis_ore",
+    "defconttwo:abnormis_block",
+    "defconttwo:basis_ore",
+    "defconttwo:basis_block",
+    "defconttwo:infernum_ore",
+    "defconttwo:infernum_block",
+    "defconttwo:cobaltium_ore",
+    "defconttwo:cobaltium_block"
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:infernum_ingot"
+    },
+    "1": {
+      "item": "defconttwo:dark_demon_heart"
+    },
+    "2": {
+      "item": "defconttwo:infernum_ingot"
+    },
+    "3": {
+      "item": "defconttwo:tenebris_ingot"
+    },
+    "4": {
+      "item": "defconttwo:tenebris_ingot"
+    },
+    "5": {
+      "item": "defconttwo:tenebris_ingot"
+    }
+  },
+  "result": {
+    "item": "defconttwo:demonic_ingot",
+    "count": 1
+  }
+}

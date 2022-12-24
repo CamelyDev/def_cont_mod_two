@@ -27,6 +27,7 @@ import com.camelychan.defconttwo.item.TotalisPickaxeItem;
 import com.camelychan.defconttwo.item.TotalisHoeItem;
 import com.camelychan.defconttwo.item.TotalisGemItem;
 import com.camelychan.defconttwo.item.TotalisAxeItem;
+import com.camelychan.defconttwo.item.TotalisArmorItem;
 import com.camelychan.defconttwo.item.TenebrisIngotItem;
 import com.camelychan.defconttwo.item.StrongSwordItem;
 import com.camelychan.defconttwo.item.StrongShovelItem;
@@ -39,6 +40,7 @@ import com.camelychan.defconttwo.item.StateraPickaxeItem;
 import com.camelychan.defconttwo.item.StateraHoeItem;
 import com.camelychan.defconttwo.item.StateraGemItem;
 import com.camelychan.defconttwo.item.StateraAxeItem;
+import com.camelychan.defconttwo.item.StateraArmorItem;
 import com.camelychan.defconttwo.item.RoburItem;
 import com.camelychan.defconttwo.item.ObservantiaItem;
 import com.camelychan.defconttwo.item.LyingSwordItem;
@@ -52,18 +54,55 @@ import com.camelychan.defconttwo.item.LightShovelItem;
 import com.camelychan.defconttwo.item.LightPickaxeItem;
 import com.camelychan.defconttwo.item.LightHoeItem;
 import com.camelychan.defconttwo.item.LightAxeItem;
+import com.camelychan.defconttwo.item.InfernumSwordItem;
+import com.camelychan.defconttwo.item.InfernumShovelItem;
+import com.camelychan.defconttwo.item.InfernumPickaxeItem;
+import com.camelychan.defconttwo.item.InfernumIngotItem;
+import com.camelychan.defconttwo.item.InfernumHoeItem;
+import com.camelychan.defconttwo.item.InfernumDustItem;
+import com.camelychan.defconttwo.item.InfernumAxeItem;
+import com.camelychan.defconttwo.item.InfernumArmorItem;
+import com.camelychan.defconttwo.item.DemonicSwordItem;
+import com.camelychan.defconttwo.item.DemonicShovelItem;
+import com.camelychan.defconttwo.item.DemonicPickaxeItem;
+import com.camelychan.defconttwo.item.DemonicIngotItem;
+import com.camelychan.defconttwo.item.DemonicHoeItem;
+import com.camelychan.defconttwo.item.DemonicAxeItem;
+import com.camelychan.defconttwo.item.DemonicArmorItem;
 import com.camelychan.defconttwo.item.DarkSwordItem;
 import com.camelychan.defconttwo.item.DarkShovelItem;
 import com.camelychan.defconttwo.item.DarkPickaxeItem;
 import com.camelychan.defconttwo.item.DarkHoeItem;
+import com.camelychan.defconttwo.item.DarkDemonHeartItem;
 import com.camelychan.defconttwo.item.DarkAxeItem;
+import com.camelychan.defconttwo.item.CobaltiumSwordItem;
+import com.camelychan.defconttwo.item.CobaltiumShovelItem;
+import com.camelychan.defconttwo.item.CobaltiumPickaxeItem;
+import com.camelychan.defconttwo.item.CobaltiumHoeItem;
+import com.camelychan.defconttwo.item.CobaltiumDustItem;
+import com.camelychan.defconttwo.item.CobaltiumAxeItem;
+import com.camelychan.defconttwo.item.CobaltiumArmorItem;
 import com.camelychan.defconttwo.item.CleverSwordItem;
 import com.camelychan.defconttwo.item.CleverShovelItem;
 import com.camelychan.defconttwo.item.CleverPickaxeItem;
 import com.camelychan.defconttwo.item.CleverHoeItem;
 import com.camelychan.defconttwo.item.CleverAxeItem;
 import com.camelychan.defconttwo.item.CalumniaItem;
+import com.camelychan.defconttwo.item.BasisSwordItem;
+import com.camelychan.defconttwo.item.BasisShovelItem;
+import com.camelychan.defconttwo.item.BasisPickaxeItem;
+import com.camelychan.defconttwo.item.BasisIngotItem;
+import com.camelychan.defconttwo.item.BasisHoeItem;
+import com.camelychan.defconttwo.item.BasisAxeItem;
+import com.camelychan.defconttwo.item.BasisArmorItem;
 import com.camelychan.defconttwo.item.AdstutusItem;
+import com.camelychan.defconttwo.item.AbnormisSwordItem;
+import com.camelychan.defconttwo.item.AbnormisShovelItem;
+import com.camelychan.defconttwo.item.AbnormisPickaxeItem;
+import com.camelychan.defconttwo.item.AbnormisIngotItem;
+import com.camelychan.defconttwo.item.AbnormisHoeItem;
+import com.camelychan.defconttwo.item.AbnormisAxeItem;
+import com.camelychan.defconttwo.item.AbnormisArmorItem;
 import com.camelychan.defconttwo.DefconttwoMod;
 
 public class DefconttwoModItems {
@@ -135,6 +174,74 @@ public class DefconttwoModItems {
 	public static Item DARK_SWORD;
 	public static Item DARK_SHOVEL;
 	public static Item DARK_HOE;
+	public static Item TOTALIS_ARMOR_HELMET;
+	public static Item TOTALIS_ARMOR_CHESTPLATE;
+	public static Item TOTALIS_ARMOR_LEGGINGS;
+	public static Item TOTALIS_ARMOR_BOOTS;
+	public static Item STATERA_ARMOR_HELMET;
+	public static Item STATERA_ARMOR_CHESTPLATE;
+	public static Item STATERA_ARMOR_LEGGINGS;
+	public static Item STATERA_ARMOR_BOOTS;
+	public static Item ABNORMIS_INGOT;
+	public static Item ABNORMIS_ORE;
+	public static Item ABNORMIS_BLOCK;
+	public static Item BASIS_INGOT;
+	public static Item BASIS_ORE;
+	public static Item BASIS_BLOCK;
+	public static Item INFERNUM_DUST;
+	public static Item INFERNUM_ORE;
+	public static Item INFERNUM_BLOCK;
+	public static Item INFERNUM_INGOT;
+	public static Item INFERNUM_PICKAXE;
+	public static Item INFERNUM_AXE;
+	public static Item INFERNUM_SWORD;
+	public static Item INFERNUM_SHOVEL;
+	public static Item INFERNUM_HOE;
+	public static Item INFERNUM_ARMOR_HELMET;
+	public static Item INFERNUM_ARMOR_CHESTPLATE;
+	public static Item INFERNUM_ARMOR_LEGGINGS;
+	public static Item INFERNUM_ARMOR_BOOTS;
+	public static Item DARK_DEMON_HEART;
+	public static Item DEMONIC_INGOT;
+	public static Item DEMONIC_PICKAXE;
+	public static Item DEMONIC_AXE;
+	public static Item DEMONIC_SWORD;
+	public static Item DEMONIC_SHOVEL;
+	public static Item DEMONIC_HOE;
+	public static Item DEMONIC_ARMOR_HELMET;
+	public static Item DEMONIC_ARMOR_CHESTPLATE;
+	public static Item DEMONIC_ARMOR_LEGGINGS;
+	public static Item DEMONIC_ARMOR_BOOTS;
+	public static Item ABNORMIS_PICKAXE;
+	public static Item ABNORMIS_AXE;
+	public static Item ABNORMIS_SWORD;
+	public static Item ABNORMIS_SHOVEL;
+	public static Item ABNORMIS_HOE;
+	public static Item BASIS_PICKAXE;
+	public static Item BASIS_AXE;
+	public static Item BASIS_SWORD;
+	public static Item BASIS_SHOVEL;
+	public static Item BASIS_HOE;
+	public static Item ABNORMIS_ARMOR_HELMET;
+	public static Item ABNORMIS_ARMOR_CHESTPLATE;
+	public static Item ABNORMIS_ARMOR_LEGGINGS;
+	public static Item ABNORMIS_ARMOR_BOOTS;
+	public static Item BASIS_ARMOR_HELMET;
+	public static Item BASIS_ARMOR_CHESTPLATE;
+	public static Item BASIS_ARMOR_LEGGINGS;
+	public static Item BASIS_ARMOR_BOOTS;
+	public static Item COBALTIUM_DUST;
+	public static Item COBALTIUM_ORE;
+	public static Item COBALTIUM_BLOCK;
+	public static Item COBALTIUM_PICKAXE;
+	public static Item COBALTIUM_AXE;
+	public static Item COBALTIUM_SWORD;
+	public static Item COBALTIUM_SHOVEL;
+	public static Item COBALTIUM_HOE;
+	public static Item COBALTIUM_ARMOR_HELMET;
+	public static Item COBALTIUM_ARMOR_CHESTPLATE;
+	public static Item COBALTIUM_ARMOR_LEGGINGS;
+	public static Item COBALTIUM_ARMOR_BOOTS;
 
 	public static void load() {
 		ADSTUTUS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "adstutus"), new AdstutusItem());
@@ -219,5 +326,110 @@ public class DefconttwoModItems {
 		DARK_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "dark_sword"), new DarkSwordItem());
 		DARK_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "dark_shovel"), new DarkShovelItem());
 		DARK_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "dark_hoe"), new DarkHoeItem());
+		TOTALIS_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_helmet"),
+				new TotalisArmorItem.Helmet());
+		TOTALIS_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_chestplate"),
+				new TotalisArmorItem.Chestplate());
+		TOTALIS_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_leggings"),
+				new TotalisArmorItem.Leggings());
+		TOTALIS_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_boots"),
+				new TotalisArmorItem.Boots());
+		STATERA_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_helmet"),
+				new StateraArmorItem.Helmet());
+		STATERA_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_chestplate"),
+				new StateraArmorItem.Chestplate());
+		STATERA_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_leggings"),
+				new StateraArmorItem.Leggings());
+		STATERA_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_boots"),
+				new StateraArmorItem.Boots());
+		ABNORMIS_INGOT = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_ingot"), new AbnormisIngotItem());
+		ABNORMIS_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_ore"),
+				new BlockItem(DefconttwoModBlocks.ABNORMIS_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		ABNORMIS_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_block"),
+				new BlockItem(DefconttwoModBlocks.ABNORMIS_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		BASIS_INGOT = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_ingot"), new BasisIngotItem());
+		BASIS_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_ore"),
+				new BlockItem(DefconttwoModBlocks.BASIS_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		BASIS_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_block"),
+				new BlockItem(DefconttwoModBlocks.BASIS_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		INFERNUM_DUST = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_dust"), new InfernumDustItem());
+		INFERNUM_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_ore"),
+				new BlockItem(DefconttwoModBlocks.INFERNUM_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		INFERNUM_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_block"),
+				new BlockItem(DefconttwoModBlocks.INFERNUM_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		INFERNUM_INGOT = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_ingot"), new InfernumIngotItem());
+		INFERNUM_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_pickaxe"), new InfernumPickaxeItem());
+		INFERNUM_AXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_axe"), new InfernumAxeItem());
+		INFERNUM_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_sword"), new InfernumSwordItem());
+		INFERNUM_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_shovel"), new InfernumShovelItem());
+		INFERNUM_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_hoe"), new InfernumHoeItem());
+		INFERNUM_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_helmet"),
+				new InfernumArmorItem.Helmet());
+		INFERNUM_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_chestplate"),
+				new InfernumArmorItem.Chestplate());
+		INFERNUM_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_leggings"),
+				new InfernumArmorItem.Leggings());
+		INFERNUM_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_boots"),
+				new InfernumArmorItem.Boots());
+		DARK_DEMON_HEART = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "dark_demon_heart"), new DarkDemonHeartItem());
+		DEMONIC_INGOT = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_ingot"), new DemonicIngotItem());
+		DEMONIC_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_pickaxe"), new DemonicPickaxeItem());
+		DEMONIC_AXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_axe"), new DemonicAxeItem());
+		DEMONIC_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_sword"), new DemonicSwordItem());
+		DEMONIC_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_shovel"), new DemonicShovelItem());
+		DEMONIC_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_hoe"), new DemonicHoeItem());
+		DEMONIC_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_helmet"),
+				new DemonicArmorItem.Helmet());
+		DEMONIC_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_chestplate"),
+				new DemonicArmorItem.Chestplate());
+		DEMONIC_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_leggings"),
+				new DemonicArmorItem.Leggings());
+		DEMONIC_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_boots"),
+				new DemonicArmorItem.Boots());
+		ABNORMIS_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_pickaxe"), new AbnormisPickaxeItem());
+		ABNORMIS_AXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_axe"), new AbnormisAxeItem());
+		ABNORMIS_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_sword"), new AbnormisSwordItem());
+		ABNORMIS_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_shovel"), new AbnormisShovelItem());
+		ABNORMIS_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_hoe"), new AbnormisHoeItem());
+		BASIS_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_pickaxe"), new BasisPickaxeItem());
+		BASIS_AXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_axe"), new BasisAxeItem());
+		BASIS_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_sword"), new BasisSwordItem());
+		BASIS_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_shovel"), new BasisShovelItem());
+		BASIS_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_hoe"), new BasisHoeItem());
+		ABNORMIS_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_helmet"),
+				new AbnormisArmorItem.Helmet());
+		ABNORMIS_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_chestplate"),
+				new AbnormisArmorItem.Chestplate());
+		ABNORMIS_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_leggings"),
+				new AbnormisArmorItem.Leggings());
+		ABNORMIS_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_boots"),
+				new AbnormisArmorItem.Boots());
+		BASIS_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_helmet"),
+				new BasisArmorItem.Helmet());
+		BASIS_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_chestplate"),
+				new BasisArmorItem.Chestplate());
+		BASIS_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_leggings"),
+				new BasisArmorItem.Leggings());
+		BASIS_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_boots"),
+				new BasisArmorItem.Boots());
+		COBALTIUM_DUST = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_dust"), new CobaltiumDustItem());
+		COBALTIUM_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_ore"),
+				new BlockItem(DefconttwoModBlocks.COBALTIUM_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		COBALTIUM_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_block"),
+				new BlockItem(DefconttwoModBlocks.COBALTIUM_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		COBALTIUM_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_pickaxe"),
+				new CobaltiumPickaxeItem());
+		COBALTIUM_AXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_axe"), new CobaltiumAxeItem());
+		COBALTIUM_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_sword"), new CobaltiumSwordItem());
+		COBALTIUM_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_shovel"), new CobaltiumShovelItem());
+		COBALTIUM_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_hoe"), new CobaltiumHoeItem());
+		COBALTIUM_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_helmet"),
+				new CobaltiumArmorItem.Helmet());
+		COBALTIUM_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_chestplate"),
+				new CobaltiumArmorItem.Chestplate());
+		COBALTIUM_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_leggings"),
+				new CobaltiumArmorItem.Leggings());
+		COBALTIUM_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_boots"),
+				new CobaltiumArmorItem.Boots());
 	}
 }

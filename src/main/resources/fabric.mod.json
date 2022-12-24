@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "defconttwo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "name": "Definitive Content Mod II: Electric Boogaloo",
   "description": "A lot of ores.",
   "authors": [
     "Camely"
   ],
   "contact": {
-    "homepage": "https://mcreator.net",
+    "homepage": "https://nosiness.000webhostapp.com",
     "sources": ""
   },
-  "license": "Academic Free License v3.0",
+  "license": "GNU General Public License version 3 (GPLv3)",
   "environment": "*",
   "entrypoints": {
     "main": [

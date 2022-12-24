@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:TotalisGem"
+      },
+      {
+        "value": "CUSTOM:TotalisGem"
+      },
+      {
+        "value": "CUSTOM:TotalisGem"
+      },
+      {
+        "value": "CUSTOM:TotalisGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TotalisGem"
+      },
+      {
+        "value": "CUSTOM:TotalisGem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:TotalisGem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TotalisArmor.legs"
+    },
+    "name": "totalis_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

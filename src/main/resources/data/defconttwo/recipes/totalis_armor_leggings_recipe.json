@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:totalis_gem"
+    },
+    "1": {
+      "item": "defconttwo:totalis_gem"
+    },
+    "2": {
+      "item": "defconttwo:totalis_gem"
+    },
+    "3": {
+      "item": "defconttwo:totalis_gem"
+    },
+    "5": {
+      "item": "defconttwo:totalis_gem"
+    },
+    "6": {
+      "item": "defconttwo:totalis_gem"
+    },
+    "8": {
+      "item": "defconttwo:totalis_gem"
+    }
+  },
+  "result": {
+    "item": "defconttwo:totalis_armor_leggings",
+    "count": 1
+  }
+}

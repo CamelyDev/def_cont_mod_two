@@ -44,8 +44,8 @@ public class AdstutusOreFeature extends OreFeature {
 		CONFIGURED_FEATURE = FeatureUtils.register("defconttwo:adstutus_ore", FEATURE,
 				new OreConfiguration(AdstutusOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.ADSTUTUS_ORE.defaultBlockState(), 8));
 		PLACED_FEATURE = PlacementUtils.register("defconttwo:adstutus_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(11), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(48)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(32)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

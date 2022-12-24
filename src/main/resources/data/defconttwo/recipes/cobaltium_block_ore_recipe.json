@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "defconttwo:cobaltium_block"
+    }
+  ],
+  "result": {
+    "item": "defconttwo:cobaltium_dust",
+    "count": 9
+  }
+}

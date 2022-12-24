@@ -44,7 +44,7 @@
     },
     "destroyTool": "pickaxe",
     "customDrop": {
-      "value": ""
+      "value": "CUSTOM:Verum"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -96,7 +96,7 @@
     "stepSound": {
       "value": ""
     },
-    "luminance": 4,
+    "luminance": 2,
     "unbreakable": false,
     "breakHarvestLevel": 2,
     "spawnParticles": false,
@@ -133,9 +133,9 @@
       }
     ],
     "generationShape": "UNIFORM",
-    "frequencyPerChunks": 10,
-    "frequencyOnChunk": 9,
+    "frequencyPerChunks": 4,
+    "frequencyOnChunk": 7,
     "minGenerateHeight": 1,
-    "maxGenerateHeight": 63
+    "maxGenerateHeight": 36
   }
 }

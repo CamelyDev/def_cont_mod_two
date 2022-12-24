@@ -20,11 +20,12 @@ import net.fabricmc.api.EnvType;
 import java.util.List;
 import java.util.Collections;
 
+import com.camelychan.defconttwo.init.DefconttwoModItems;
 import com.camelychan.defconttwo.init.DefconttwoModBlocks;
 
 public class RoburOreBlock extends Block {
 	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE)
-			.strength(3.5f, 7.5f).requiresCorrectToolForDrops();
+			.strength(3.5f, 7.5f).lightLevel(s -> 2).requiresCorrectToolForDrops();
 
 	public RoburOreBlock() {
 		super(PROPERTIES);
@@ -40,7 +41,7 @@ public class RoburOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(DefconttwoModItems.ROBUR));
 	}
 
 	@Environment(EnvType.CLIENT)

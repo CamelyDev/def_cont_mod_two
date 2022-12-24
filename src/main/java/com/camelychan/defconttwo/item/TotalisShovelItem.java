@@ -8,9 +8,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 
-import net.fabricmc.api.Environment;
-import net.fabricmc.api.EnvType;
-
 import com.camelychan.defconttwo.init.DefconttwoModItems;
 
 public class TotalisShovelItem extends ShovelItem {
@@ -40,11 +37,5 @@ public class TotalisShovelItem extends ShovelItem {
 				return Ingredient.of(new ItemStack(DefconttwoModItems.TOTALIS_GEM));
 			}
 		}, 1, -2.7999999999999998f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS).fireResistant());
-	}
-
-	@Override
-	@Environment(EnvType.CLIENT)
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
 	}
 }

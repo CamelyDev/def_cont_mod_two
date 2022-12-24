@@ -2,6 +2,11 @@
   "replace": false,
   "values": [
     "defconttwo:lux_ore",
-    "defconttwo:tenebris_ore"
+    "defconttwo:tenebris_ore",
+    "defconttwo:abnormis_ore",
+    "defconttwo:infernum_ore",
+    "defconttwo:infernum_block",
+    "defconttwo:cobaltium_ore",
+    "defconttwo:cobaltium_block"
   ]
 }

@@ -8,9 +8,6 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 import net.minecraft.world.item.CreativeModeTab;
 
-import net.fabricmc.api.Environment;
-import net.fabricmc.api.EnvType;
-
 import com.camelychan.defconttwo.init.DefconttwoModItems;
 
 public class TotalisHoeItem extends HoeItem {
@@ -40,11 +37,5 @@ public class TotalisHoeItem extends HoeItem {
 				return Ingredient.of(new ItemStack(DefconttwoModItems.TOTALIS_GEM));
 			}
 		}, 0, -2.9000000000000001f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
-	}
-
-	@Override
-	@Environment(EnvType.CLIENT)
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
 	}
 }

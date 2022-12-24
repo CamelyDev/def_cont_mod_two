@@ -10,35 +10,35 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Lux"
-      },
-      {
-        "value": "CUSTOM:Lux"
-      },
-      {
-        "value": "CUSTOM:Lux"
-      },
-      {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:Adstutus"
       },
       {
-        "value": ""
+        "value": "CUSTOM:Verum"
       },
       {
-        "value": ""
+        "value": "CUSTOM:TotalisGem"
       },
       {
-        "value": "Items.STICK"
+        "value": "CUSTOM:Calumnia"
+      },
+      {
+        "value": "CUSTOM:Adstutus"
+      },
+      {
+        "value": "CUSTOM:Lux"
+      },
+      {
+        "value": "CUSTOM:TotalisGem"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:LightPickaxe"
+      "value": "CUSTOM:StateraGem"
     },
     "name": "light_pickaxe_recipe",
     "namespace": "mod"

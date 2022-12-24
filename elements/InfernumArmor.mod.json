@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "infernum_head",
+    "enableBody": true,
+    "textureBody": "infernum_body",
+    "enableLeggings": true,
+    "textureLeggings": "infernum_leggings",
+    "enableBoots": true,
+    "textureBoots": "infernum_boots",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "infernum",
+    "helmetName": "Infernum Helmet",
+    "bodyName": "Infernum Chestplate",
+    "leggingsName": "Infernum Leggings",
+    "bootsName": "Infernum Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 39,
+    "damageValueHelmet": 6,
+    "damageValueBody": 13,
+    "damageValueLeggings": 12,
+    "damageValueBoots": 6,
+    "enchantability": 23,
+    "toughness": 3.5,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:InfernumIngot"
+      }
+    ]
+  }
+}

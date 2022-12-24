@@ -42,10 +42,10 @@ public class ObservantiaOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new ObservantiaOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("defconttwo:observantia_ore", FEATURE,
-				new OreConfiguration(ObservantiaOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.OBSERVANTIA_ORE.defaultBlockState(), 5));
+				new OreConfiguration(ObservantiaOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.OBSERVANTIA_ORE.defaultBlockState(), 6));
 		PLACED_FEATURE = PlacementUtils.register("defconttwo:observantia_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(12), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(63)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(48)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

@@ -7,10 +7,10 @@
   ],
   "key": {
     "1": {
-      "item": "defconttwo:lux"
+      "item": "defconttwo:verum"
     },
     "2": {
-      "item": "minecraft:gold_ingot"
+      "item": "defconttwo:calumnia"
     },
     "3": {
       "item": "defconttwo:tenebris_ingot"
@@ -19,13 +19,13 @@
       "item": "defconttwo:totalis_gem"
     },
     "5": {
-      "item": "defconttwo:tenebris_ingot"
+      "item": "defconttwo:lux"
     },
     "6": {
-      "item": "defconttwo:adstutus"
+      "item": "defconttwo:verum"
     },
     "7": {
-      "item": "defconttwo:lux"
+      "item": "defconttwo:calumnia"
     }
   },
   "result": {

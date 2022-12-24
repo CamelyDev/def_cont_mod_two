@@ -18,10 +18,18 @@ import com.camelychan.defconttwo.block.ObservantiaOreBlock;
 import com.camelychan.defconttwo.block.ObservantiaBlockBlock;
 import com.camelychan.defconttwo.block.LuxOreBlock;
 import com.camelychan.defconttwo.block.LuxBlockBlock;
+import com.camelychan.defconttwo.block.InfernumOreBlock;
+import com.camelychan.defconttwo.block.InfernumBlockBlock;
+import com.camelychan.defconttwo.block.CobaltiumOreBlock;
+import com.camelychan.defconttwo.block.CobaltiumBlockBlock;
 import com.camelychan.defconttwo.block.CalumniaOreBlock;
 import com.camelychan.defconttwo.block.CalumniaBlockBlock;
+import com.camelychan.defconttwo.block.BasisOreBlock;
+import com.camelychan.defconttwo.block.BasisBlockBlock;
 import com.camelychan.defconttwo.block.AdstutusOreBlock;
 import com.camelychan.defconttwo.block.AdstutusBlockBlock;
+import com.camelychan.defconttwo.block.AbnormisOreBlock;
+import com.camelychan.defconttwo.block.AbnormisBlockBlock;
 import com.camelychan.defconttwo.DefconttwoMod;
 
 public class DefconttwoModBlocks {
@@ -39,6 +47,14 @@ public class DefconttwoModBlocks {
 	public static Block LUX_BLOCK;
 	public static Block TENEBRIS_ORE;
 	public static Block TENEBRIS_BLOCK;
+	public static Block ABNORMIS_ORE;
+	public static Block ABNORMIS_BLOCK;
+	public static Block BASIS_ORE;
+	public static Block BASIS_BLOCK;
+	public static Block INFERNUM_ORE;
+	public static Block INFERNUM_BLOCK;
+	public static Block COBALTIUM_ORE;
+	public static Block COBALTIUM_BLOCK;
 
 	public static void load() {
 		ADSTUTUS_ORE = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "adstutus_ore"), new AdstutusOreBlock());
@@ -56,6 +72,14 @@ public class DefconttwoModBlocks {
 		LUX_BLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "lux_block"), new LuxBlockBlock());
 		TENEBRIS_ORE = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "tenebris_ore"), new TenebrisOreBlock());
 		TENEBRIS_BLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "tenebris_block"), new TenebrisBlockBlock());
+		ABNORMIS_ORE = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "abnormis_ore"), new AbnormisOreBlock());
+		ABNORMIS_BLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "abnormis_block"), new AbnormisBlockBlock());
+		BASIS_ORE = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "basis_ore"), new BasisOreBlock());
+		BASIS_BLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "basis_block"), new BasisBlockBlock());
+		INFERNUM_ORE = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "infernum_ore"), new InfernumOreBlock());
+		INFERNUM_BLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "infernum_block"), new InfernumBlockBlock());
+		COBALTIUM_ORE = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_ore"), new CobaltiumOreBlock());
+		COBALTIUM_BLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_block"), new CobaltiumBlockBlock());
 	}
 
 	public static void clientLoad() {
@@ -73,5 +97,13 @@ public class DefconttwoModBlocks {
 		LuxBlockBlock.clientInit();
 		TenebrisOreBlock.clientInit();
 		TenebrisBlockBlock.clientInit();
+		AbnormisOreBlock.clientInit();
+		AbnormisBlockBlock.clientInit();
+		BasisOreBlock.clientInit();
+		BasisBlockBlock.clientInit();
+		InfernumOreBlock.clientInit();
+		InfernumBlockBlock.clientInit();
+		CobaltiumOreBlock.clientInit();
+		CobaltiumBlockBlock.clientInit();
 	}
 }

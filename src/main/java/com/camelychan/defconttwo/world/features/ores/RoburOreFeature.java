@@ -42,8 +42,8 @@ public class RoburOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new RoburOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("defconttwo:robur_ore", FEATURE,
-				new OreConfiguration(RoburOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.ROBUR_ORE.defaultBlockState(), 11));
-		PLACED_FEATURE = PlacementUtils.register("defconttwo:robur_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(6), InSquarePlacement.spread(),
+				new OreConfiguration(RoburOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.ROBUR_ORE.defaultBlockState(), 10));
+		PLACED_FEATURE = PlacementUtils.register("defconttwo:robur_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(4), InSquarePlacement.spread(),
 				HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(48)), BiomeFilter.biome()));
 		return FEATURE;
 	}
