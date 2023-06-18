@@ -23,8 +23,7 @@ import java.util.Collections;
 import com.camelychan.defconttwo.init.DefconttwoModBlocks;
 
 public class TenebrisOreBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE)
-			.strength(6f, 5f).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(6f, 5f).requiresCorrectToolForDrops();
 
 	public TenebrisOreBlock() {
 		super(PROPERTIES);

@@ -24,8 +24,7 @@ import com.camelychan.defconttwo.init.DefconttwoModItems;
 import com.camelychan.defconttwo.init.DefconttwoModBlocks;
 
 public class InfernumOreBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE)
-			.strength(6.300000000000001f, 9.052018651179225f).lightLevel(s -> 3).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(6.3f, 9.0520186512f).lightLevel(s -> 3).requiresCorrectToolForDrops();
 
 	public InfernumOreBlock() {
 		super(PROPERTIES);
@@ -41,7 +40,7 @@ public class InfernumOreBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(DefconttwoModItems.INFERNUM_DUST, (int) (2)));
+		return Collections.singletonList(new ItemStack(DefconttwoModItems.INFERNUM_DUST, 2));
 	}
 
 	@Environment(EnvType.CLIENT)

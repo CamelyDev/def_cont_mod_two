@@ -36,6 +36,6 @@ public class DarkSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(DefconttwoModItems.TENEBRIS_INGOT));
 			}
-		}, 3, -2.4000000000000001f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -2.4f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}
 }

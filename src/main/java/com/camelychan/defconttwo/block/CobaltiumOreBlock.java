@@ -24,8 +24,7 @@ import com.camelychan.defconttwo.init.DefconttwoModItems;
 import com.camelychan.defconttwo.init.DefconttwoModBlocks;
 
 public class CobaltiumOreBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE)
-			.strength(6f, 8.705505632961241f).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(6f, 8.705505633f).requiresCorrectToolForDrops();
 
 	public CobaltiumOreBlock() {
 		super(PROPERTIES);

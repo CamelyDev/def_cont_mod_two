@@ -23,8 +23,7 @@ import java.util.Collections;
 import com.camelychan.defconttwo.init.DefconttwoModBlocks;
 
 public class AbnormisOreBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE)
-			.strength(5f, 6.915809336112958f).lightLevel(s -> 3).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(5f, 6.9158093361f).lightLevel(s -> 3).requiresCorrectToolForDrops();
 
 	public AbnormisOreBlock() {
 		super(PROPERTIES);

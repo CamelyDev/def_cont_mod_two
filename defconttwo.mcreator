@@ -6,7 +6,13 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "adstutus"
+      "registry_name": "adstutus",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/AdstutusItem.java",
+          "src/main/resources/assets/defconttwo/models/item/adstutus.json"
+        ]
+      }
     },
     {
       "name": "AdstutusOre",
@@ -14,7 +20,16 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "adstutus_ore"
+      "registry_name": "adstutus_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/world/features/ores/AdstutusOreFeature.java",
+          "src/main/java/com/camelychan/defconttwo/block/AdstutusOreBlock.java",
+          "src/main/resources/assets/defconttwo/models/block/adstutus_ore.json",
+          "src/main/resources/assets/defconttwo/blockstates/adstutus_ore.json",
+          "src/main/resources/assets/defconttwo/models/item/adstutus_ore.json"
+        ]
+      }
     },
     {
       "name": "AdstutusBlock",
@@ -22,7 +37,15 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "adstutus_block"
+      "registry_name": "adstutus_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/block/adstutus_block.json",
+          "src/main/resources/assets/defconttwo/blockstates/adstutus_block.json",
+          "src/main/java/com/camelychan/defconttwo/block/AdstutusBlockBlock.java",
+          "src/main/resources/assets/defconttwo/models/item/adstutus_block.json"
+        ]
+      }
     },
     {
       "name": "AdstutusOreBlockRecipe",
@@ -30,7 +53,12 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "adstutus_ore_block_recipe"
+      "registry_name": "adstutus_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/adstutus_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "AdstutusBlockOreRecipe",
@@ -38,7 +66,12 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "adstutus_block_ore_recipe"
+      "registry_name": "adstutus_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/adstutus_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "AdstutusOreSmelting",
@@ -46,7 +79,12 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "adstutus_ore_smelting"
+      "registry_name": "adstutus_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/adstutus_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "Observantia",
@@ -54,7 +92,13 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "observantia"
+      "registry_name": "observantia",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/ObservantiaItem.java",
+          "src/main/resources/assets/defconttwo/models/item/observantia.json"
+        ]
+      }
     },
     {
       "name": "ObservantiaOre",
@@ -62,7 +106,16 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "observantia_ore"
+      "registry_name": "observantia_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/observantia_ore.json",
+          "src/main/resources/assets/defconttwo/blockstates/observantia_ore.json",
+          "src/main/resources/assets/defconttwo/models/block/observantia_ore.json",
+          "src/main/java/com/camelychan/defconttwo/block/ObservantiaOreBlock.java",
+          "src/main/java/com/camelychan/defconttwo/world/features/ores/ObservantiaOreFeature.java"
+        ]
+      }
     },
     {
       "name": "ObservantiaBlock",
@@ -70,7 +123,15 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "observantia_block"
+      "registry_name": "observantia_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/blockstates/observantia_block.json",
+          "src/main/java/com/camelychan/defconttwo/block/ObservantiaBlockBlock.java",
+          "src/main/resources/assets/defconttwo/models/item/observantia_block.json",
+          "src/main/resources/assets/defconttwo/models/block/observantia_block.json"
+        ]
+      }
     },
     {
       "name": "ObservantiaOreBlockRecipe",
@@ -78,7 +139,12 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "observantia_ore_block_recipe"
+      "registry_name": "observantia_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/observantia_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "ObservantiaBlockOreRecipe",
@@ -86,7 +152,12 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "observantia_block_ore_recipe"
+      "registry_name": "observantia_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/observantia_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "ObservantiaOreSmelting",
@@ -94,7 +165,12 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "observantia_ore_smelting"
+      "registry_name": "observantia_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/observantia_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "Robur",
@@ -102,7 +178,13 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "robur"
+      "registry_name": "robur",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/RoburItem.java",
+          "src/main/resources/assets/defconttwo/models/item/robur.json"
+        ]
+      }
     },
     {
       "name": "RoburOre",
@@ -110,7 +192,16 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "robur_ore"
+      "registry_name": "robur_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/world/features/ores/RoburOreFeature.java",
+          "src/main/java/com/camelychan/defconttwo/block/RoburOreBlock.java",
+          "src/main/resources/assets/defconttwo/models/block/robur_ore.json",
+          "src/main/resources/assets/defconttwo/blockstates/robur_ore.json",
+          "src/main/resources/assets/defconttwo/models/item/robur_ore.json"
+        ]
+      }
     },
     {
       "name": "RoburBlock",
@@ -118,7 +209,15 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "robur_block"
+      "registry_name": "robur_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/block/RoburBlockBlock.java",
+          "src/main/resources/assets/defconttwo/models/block/robur_block.json",
+          "src/main/resources/assets/defconttwo/blockstates/robur_block.json",
+          "src/main/resources/assets/defconttwo/models/item/robur_block.json"
+        ]
+      }
     },
     {
       "name": "RoburOreBlockRecipe",
@@ -126,7 +225,12 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "robur_ore_block_recipe"
+      "registry_name": "robur_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/robur_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "RoburBlockOreRecipe",
@@ -134,7 +238,12 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "robur_block_ore_recipe"
+      "registry_name": "robur_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/robur_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "RoburOreSmelting",
@@ -142,7 +251,12 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "robur_ore_smelting"
+      "registry_name": "robur_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/robur_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "Verum",
@@ -150,7 +264,13 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "verum"
+      "registry_name": "verum",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/VerumItem.java",
+          "src/main/resources/assets/defconttwo/models/item/verum.json"
+        ]
+      }
     },
     {
       "name": "VerumOre",
@@ -158,7 +278,16 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "verum_ore"
+      "registry_name": "verum_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/block/VerumOreBlock.java",
+          "src/main/java/com/camelychan/defconttwo/world/features/ores/VerumOreFeature.java",
+          "src/main/resources/assets/defconttwo/models/block/verum_ore.json",
+          "src/main/resources/assets/defconttwo/models/item/verum_ore.json",
+          "src/main/resources/assets/defconttwo/blockstates/verum_ore.json"
+        ]
+      }
     },
     {
       "name": "VerumBlock",
@@ -166,7 +295,15 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "verum_block"
+      "registry_name": "verum_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/block/VerumBlockBlock.java",
+          "src/main/resources/assets/defconttwo/blockstates/verum_block.json",
+          "src/main/resources/assets/defconttwo/models/block/verum_block.json",
+          "src/main/resources/assets/defconttwo/models/item/verum_block.json"
+        ]
+      }
     },
     {
       "name": "VerumOreBlockRecipe",
@@ -174,7 +311,12 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "verum_ore_block_recipe"
+      "registry_name": "verum_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/verum_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "VerumBlockOreRecipe",
@@ -182,7 +324,12 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "verum_block_ore_recipe"
+      "registry_name": "verum_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/verum_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "VerumOreSmelting",
@@ -190,7 +337,12 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "verum_ore_smelting"
+      "registry_name": "verum_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/verum_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "TotalisGem",
@@ -198,7 +350,13 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_gem"
+      "registry_name": "totalis_gem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/totalis_gem.json",
+          "src/main/java/com/camelychan/defconttwo/item/TotalisGemItem.java"
+        ]
+      }
     },
     {
       "name": "TotalisGemRecipe",
@@ -206,7 +364,12 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_gem_recipe"
+      "registry_name": "totalis_gem_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/totalis_gem_recipe.json"
+        ]
+      }
     },
     {
       "name": "TotalisPickaxe",
@@ -214,7 +377,13 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_pickaxe"
+      "registry_name": "totalis_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/TotalisPickaxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/totalis_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "TotalisAxe",
@@ -222,7 +391,13 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_axe"
+      "registry_name": "totalis_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/TotalisAxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/totalis_axe.json"
+        ]
+      }
     },
     {
       "name": "TotalisSword",
@@ -230,7 +405,13 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_sword"
+      "registry_name": "totalis_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/TotalisSwordItem.java",
+          "src/main/resources/assets/defconttwo/models/item/totalis_sword.json"
+        ]
+      }
     },
     {
       "name": "TotalisShovel",
@@ -238,7 +419,13 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_shovel"
+      "registry_name": "totalis_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/TotalisShovelItem.java",
+          "src/main/resources/assets/defconttwo/models/item/totalis_shovel.json"
+        ]
+      }
     },
     {
       "name": "TotalisHoe",
@@ -246,7 +433,13 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_hoe"
+      "registry_name": "totalis_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/TotalisHoeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/totalis_hoe.json"
+        ]
+      }
     },
     {
       "name": "TotalisPickaxeRecipe",
@@ -254,7 +447,12 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_pickaxe_recipe"
+      "registry_name": "totalis_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/totalis_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "TotalisAxeRecipe",
@@ -262,7 +460,12 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_axe_recipe"
+      "registry_name": "totalis_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/totalis_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "TotalisSwordRecipe",
@@ -270,7 +473,12 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_sword_recipe"
+      "registry_name": "totalis_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/totalis_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "TotalisShovelRecipe",
@@ -278,7 +486,12 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_shovel_recipe"
+      "registry_name": "totalis_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/totalis_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "TotalisHoeRecipe",
@@ -286,7 +499,12 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_hoe_recipe"
+      "registry_name": "totalis_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/totalis_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "Calumnia",
@@ -294,7 +512,13 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "calumnia"
+      "registry_name": "calumnia",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/calumnia.json",
+          "src/main/java/com/camelychan/defconttwo/item/CalumniaItem.java"
+        ]
+      }
     },
     {
       "name": "CalumniaOre",
@@ -302,7 +526,16 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "calumnia_ore"
+      "registry_name": "calumnia_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/block/CalumniaOreBlock.java",
+          "src/main/java/com/camelychan/defconttwo/world/features/ores/CalumniaOreFeature.java",
+          "src/main/resources/assets/defconttwo/models/item/calumnia_ore.json",
+          "src/main/resources/assets/defconttwo/blockstates/calumnia_ore.json",
+          "src/main/resources/assets/defconttwo/models/block/calumnia_ore.json"
+        ]
+      }
     },
     {
       "name": "CalumniaBlock",
@@ -310,7 +543,15 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "calumnia_block"
+      "registry_name": "calumnia_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/blockstates/calumnia_block.json",
+          "src/main/resources/assets/defconttwo/models/block/calumnia_block.json",
+          "src/main/resources/assets/defconttwo/models/item/calumnia_block.json",
+          "src/main/java/com/camelychan/defconttwo/block/CalumniaBlockBlock.java"
+        ]
+      }
     },
     {
       "name": "CalumniaOreBlockRecipe",
@@ -318,7 +559,12 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "calumnia_ore_block_recipe"
+      "registry_name": "calumnia_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/calumnia_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "CalumniaBlockOreRecipe",
@@ -326,7 +572,12 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "calumnia_block_ore_recipe"
+      "registry_name": "calumnia_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/calumnia_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "CalumniaOreSmelting",
@@ -334,7 +585,12 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "calumnia_ore_smelting"
+      "registry_name": "calumnia_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/robur_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "StateraGem",
@@ -342,7 +598,13 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_gem"
+      "registry_name": "statera_gem",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/StateraGemItem.java",
+          "src/main/resources/assets/defconttwo/models/item/statera_gem.json"
+        ]
+      }
     },
     {
       "name": "StateraGemRecipe",
@@ -350,7 +612,12 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_gem_recipe"
+      "registry_name": "statera_gem_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/light_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "Lux",
@@ -358,7 +625,13 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lux"
+      "registry_name": "lux",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/LuxItem.java",
+          "src/main/resources/assets/defconttwo/models/item/lux.json"
+        ]
+      }
     },
     {
       "name": "LuxOre",
@@ -366,7 +639,16 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lux_ore"
+      "registry_name": "lux_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/world/features/ores/LuxOreFeature.java",
+          "src/main/resources/assets/defconttwo/models/block/lux_ore.json",
+          "src/main/java/com/camelychan/defconttwo/block/LuxOreBlock.java",
+          "src/main/resources/assets/defconttwo/blockstates/lux_ore.json",
+          "src/main/resources/assets/defconttwo/models/item/lux_ore.json"
+        ]
+      }
     },
     {
       "name": "LuxBlock",
@@ -374,7 +656,15 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lux_block"
+      "registry_name": "lux_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/block/LuxBlockBlock.java",
+          "src/main/resources/assets/defconttwo/models/item/lux_block.json",
+          "src/main/resources/assets/defconttwo/blockstates/lux_block.json",
+          "src/main/resources/assets/defconttwo/models/block/lux_block.json"
+        ]
+      }
     },
     {
       "name": "LuxOreBlockRecipe",
@@ -382,7 +672,12 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lux_ore_block_recipe"
+      "registry_name": "lux_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/lux_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "LuxBlockOreRecipe",
@@ -390,7 +685,12 @@
       "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lux_block_ore_recipe"
+      "registry_name": "lux_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/lux_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "LuxOreSmelting",
@@ -398,7 +698,12 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lux_ore_smelting"
+      "registry_name": "lux_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/lux_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "TenebrisIngot",
@@ -406,7 +711,13 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tenebris_ingot"
+      "registry_name": "tenebris_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/tenebris_ingot.json",
+          "src/main/java/com/camelychan/defconttwo/item/TenebrisIngotItem.java"
+        ]
+      }
     },
     {
       "name": "TenebrisOre",
@@ -414,7 +725,16 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tenebris_ore"
+      "registry_name": "tenebris_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/blockstates/tenebris_ore.json",
+          "src/main/resources/assets/defconttwo/models/block/tenebris_ore.json",
+          "src/main/java/com/camelychan/defconttwo/block/TenebrisOreBlock.java",
+          "src/main/resources/assets/defconttwo/models/item/tenebris_ore.json",
+          "src/main/java/com/camelychan/defconttwo/world/features/ores/TenebrisOreFeature.java"
+        ]
+      }
     },
     {
       "name": "TenebrisBlock",
@@ -422,7 +742,15 @@
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tenebris_block"
+      "registry_name": "tenebris_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/block/tenebris_block.json",
+          "src/main/resources/assets/defconttwo/blockstates/tenebris_block.json",
+          "src/main/resources/assets/defconttwo/models/item/tenebris_block.json",
+          "src/main/java/com/camelychan/defconttwo/block/TenebrisBlockBlock.java"
+        ]
+      }
     },
     {
       "name": "TenebrisOreBlockRecipe",
@@ -430,7 +758,12 @@
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tenebris_ore_block_recipe"
+      "registry_name": "tenebris_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/tenebris_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "TenebrisBlockOreRecipe",
@@ -438,7 +771,12 @@
       "sortid": 55,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tenebris_block_ore_recipe"
+      "registry_name": "tenebris_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/tenebris_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "TenebrisOreSmelting",
@@ -446,7 +784,12 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tenebris_ore_smelting"
+      "registry_name": "tenebris_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/tenebris_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "StateraGemRecipe2",
@@ -454,7 +797,12 @@
       "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_gem_recipe_2"
+      "registry_name": "statera_gem_recipe_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/statera_gem_recipe_2.json"
+        ]
+      }
     },
     {
       "name": "StateraPickaxe",
@@ -462,7 +810,13 @@
       "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_pickaxe"
+      "registry_name": "statera_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/statera_pickaxe.json",
+          "src/main/java/com/camelychan/defconttwo/item/StateraPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "StateraAxe",
@@ -470,7 +824,13 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_axe"
+      "registry_name": "statera_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/StateraAxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/statera_axe.json"
+        ]
+      }
     },
     {
       "name": "StateraSword",
@@ -478,7 +838,13 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_sword"
+      "registry_name": "statera_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/StateraSwordItem.java",
+          "src/main/resources/assets/defconttwo/models/item/statera_sword.json"
+        ]
+      }
     },
     {
       "name": "StateraShovel",
@@ -486,7 +852,13 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_shovel"
+      "registry_name": "statera_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/StateraShovelItem.java",
+          "src/main/resources/assets/defconttwo/models/item/statera_shovel.json"
+        ]
+      }
     },
     {
       "name": "StateraHoe",
@@ -494,7 +866,13 @@
       "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_hoe"
+      "registry_name": "statera_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/StateraHoeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/statera_hoe.json"
+        ]
+      }
     },
     {
       "name": "StateraPickaxeRecipe",
@@ -502,7 +880,12 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_pickaxe_recipe"
+      "registry_name": "statera_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/statera_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "StateraAxeRecipe",
@@ -510,7 +893,12 @@
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_axe_recipe"
+      "registry_name": "statera_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/statera_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "StateraSwordRecipe",
@@ -518,7 +906,12 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_sword_recipe"
+      "registry_name": "statera_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/statera_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "StateraShovelRecipe",
@@ -526,7 +919,12 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_shovel_recipe"
+      "registry_name": "statera_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/statera_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "StateraHoeRecipe",
@@ -534,7 +932,12 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_hoe_recipe"
+      "registry_name": "statera_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/statera_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "CleverPickaxe",
@@ -542,7 +945,13 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clever_pickaxe"
+      "registry_name": "clever_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/clever_pickaxe.json",
+          "src/main/java/com/camelychan/defconttwo/item/CleverPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "CleverAxe",
@@ -550,7 +959,13 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clever_axe"
+      "registry_name": "clever_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/CleverAxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/clever_axe.json"
+        ]
+      }
     },
     {
       "name": "CleverSword",
@@ -558,7 +973,13 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clever_sword"
+      "registry_name": "clever_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/clever_sword.json",
+          "src/main/java/com/camelychan/defconttwo/item/CleverSwordItem.java"
+        ]
+      }
     },
     {
       "name": "CleverShovel",
@@ -566,7 +987,13 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clever_shovel"
+      "registry_name": "clever_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/CleverShovelItem.java",
+          "src/main/resources/assets/defconttwo/models/item/clever_shovel.json"
+        ]
+      }
     },
     {
       "name": "CleverHoe",
@@ -574,7 +1001,13 @@
       "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clever_hoe"
+      "registry_name": "clever_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/CleverHoeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/clever_hoe.json"
+        ]
+      }
     },
     {
       "name": "CleverPickaxeRecipe",
@@ -582,7 +1015,12 @@
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clever_pickaxe_recipe"
+      "registry_name": "clever_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/clever_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "CleverAxeRecipe",
@@ -590,7 +1028,12 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clever_axe_recipe"
+      "registry_name": "clever_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/clever_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "CleverSwordRecipe",
@@ -598,7 +1041,12 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clever_sword_recipe"
+      "registry_name": "clever_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/clever_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "CleverShovelRecipe",
@@ -606,7 +1054,12 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clever_shovel_recipe"
+      "registry_name": "clever_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/clever_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "CleverHoeRecipe",
@@ -614,7 +1067,12 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clever_hoe_recipe"
+      "registry_name": "clever_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/clever_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "WatcherPickaxe",
@@ -622,7 +1080,13 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "watcher_pickaxe"
+      "registry_name": "watcher_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/watcher_pickaxe.json",
+          "src/main/java/com/camelychan/defconttwo/item/WatcherPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "WatcherAxe",
@@ -630,7 +1094,13 @@
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "watcher_axe"
+      "registry_name": "watcher_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/WatcherAxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/watcher_axe.json"
+        ]
+      }
     },
     {
       "name": "WatcherSword",
@@ -638,7 +1108,13 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "watcher_sword"
+      "registry_name": "watcher_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/WatcherSwordItem.java",
+          "src/main/resources/assets/defconttwo/models/item/watcher_sword.json"
+        ]
+      }
     },
     {
       "name": "WatcherShovel",
@@ -646,7 +1122,13 @@
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "watcher_shovel"
+      "registry_name": "watcher_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/WatcherShovelItem.java",
+          "src/main/resources/assets/defconttwo/models/item/watcher_shovel.json"
+        ]
+      }
     },
     {
       "name": "WatcherHoe",
@@ -654,7 +1136,13 @@
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "watcher_hoe"
+      "registry_name": "watcher_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/WatcherHoeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/watcher_hoe.json"
+        ]
+      }
     },
     {
       "name": "WatcherPickaxeRecipe",
@@ -662,7 +1150,12 @@
       "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "watcher_pickaxe_recipe"
+      "registry_name": "watcher_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/watcher_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "WatcherAxeRecipe",
@@ -678,7 +1171,12 @@
       "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "watcher_sword_recipe"
+      "registry_name": "watcher_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/watcher_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "WatcherShovelRecipe",
@@ -686,7 +1184,12 @@
       "sortid": 86,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "watcher_shovel_recipe"
+      "registry_name": "watcher_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/watcher_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "WatcherHoeRecipe",
@@ -694,7 +1197,12 @@
       "sortid": 87,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "watcher_hoe_recipe"
+      "registry_name": "watcher_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/watcher_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "StrongPickaxe",
@@ -702,7 +1210,13 @@
       "sortid": 88,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strong_pickaxe"
+      "registry_name": "strong_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/strong_pickaxe.json",
+          "src/main/java/com/camelychan/defconttwo/item/StrongPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "StrongAxe",
@@ -710,7 +1224,13 @@
       "sortid": 89,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strong_axe"
+      "registry_name": "strong_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/StrongAxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/strong_axe.json"
+        ]
+      }
     },
     {
       "name": "StrongSword",
@@ -718,7 +1238,13 @@
       "sortid": 90,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strong_sword"
+      "registry_name": "strong_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/StrongSwordItem.java",
+          "src/main/resources/assets/defconttwo/models/item/strong_sword.json"
+        ]
+      }
     },
     {
       "name": "StrongShovel",
@@ -726,7 +1252,13 @@
       "sortid": 91,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strong_shovel"
+      "registry_name": "strong_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/StrongShovelItem.java",
+          "src/main/resources/assets/defconttwo/models/item/strong_shovel.json"
+        ]
+      }
     },
     {
       "name": "StrongHoe",
@@ -734,7 +1266,13 @@
       "sortid": 92,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strong_hoe"
+      "registry_name": "strong_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/strong_hoe.json",
+          "src/main/java/com/camelychan/defconttwo/item/StrongHoeItem.java"
+        ]
+      }
     },
     {
       "name": "StrongPickaxeRecipe",
@@ -742,7 +1280,12 @@
       "sortid": 93,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strong_pickaxe_recipe"
+      "registry_name": "strong_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/strong_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "StrongAxeRecipe",
@@ -750,7 +1293,12 @@
       "sortid": 94,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strong_axe_recipe"
+      "registry_name": "strong_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/strong_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "StrongSwordRecipe",
@@ -758,7 +1306,12 @@
       "sortid": 95,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strong_sword_recipe"
+      "registry_name": "strong_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/strong_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "StrongShovelRecipe",
@@ -766,7 +1319,12 @@
       "sortid": 96,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strong_shovel_recipe"
+      "registry_name": "strong_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/strong_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "StrongHoeRecipe",
@@ -774,7 +1332,12 @@
       "sortid": 97,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "strong_hoe_recipe"
+      "registry_name": "strong_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/strong_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "TruthPickaxe",
@@ -782,7 +1345,13 @@
       "sortid": 98,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "truth_pickaxe"
+      "registry_name": "truth_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/TruthPickaxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/truth_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "TruthAxe",
@@ -790,7 +1359,13 @@
       "sortid": 99,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "truth_axe"
+      "registry_name": "truth_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/truth_axe.json",
+          "src/main/java/com/camelychan/defconttwo/item/TruthAxeItem.java"
+        ]
+      }
     },
     {
       "name": "TruthSword",
@@ -798,7 +1373,13 @@
       "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "truth_sword"
+      "registry_name": "truth_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/TruthSwordItem.java",
+          "src/main/resources/assets/defconttwo/models/item/truth_sword.json"
+        ]
+      }
     },
     {
       "name": "TruthShovel",
@@ -806,7 +1387,13 @@
       "sortid": 101,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "truth_shovel"
+      "registry_name": "truth_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/TruthShovelItem.java",
+          "src/main/resources/assets/defconttwo/models/item/truth_shovel.json"
+        ]
+      }
     },
     {
       "name": "TruthHoe",
@@ -814,7 +1401,13 @@
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "truth_hoe"
+      "registry_name": "truth_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/truth_hoe.json",
+          "src/main/java/com/camelychan/defconttwo/item/TruthHoeItem.java"
+        ]
+      }
     },
     {
       "name": "TruthPickaxeRecipe",
@@ -822,7 +1415,12 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "truth_pickaxe_recipe"
+      "registry_name": "truth_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/truth_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "TruthAxeRecipe",
@@ -830,7 +1428,12 @@
       "sortid": 104,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "truth_axe_recipe"
+      "registry_name": "truth_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/truth_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "TruthSwordRecipe",
@@ -838,7 +1441,12 @@
       "sortid": 105,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "truth_sword_recipe"
+      "registry_name": "truth_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/truth_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "TruthShovelRecipe",
@@ -846,7 +1454,12 @@
       "sortid": 106,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "truth_shovel_recipe"
+      "registry_name": "truth_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/dark_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "TruthHoeRecipe",
@@ -854,7 +1467,12 @@
       "sortid": 107,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "truth_hoe_recipe"
+      "registry_name": "truth_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/truth_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "LyingPickaxe",
@@ -862,7 +1480,13 @@
       "sortid": 108,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lying_pickaxe"
+      "registry_name": "lying_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/LyingPickaxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/lying_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "LyingAxe",
@@ -870,7 +1494,13 @@
       "sortid": 109,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lying_axe"
+      "registry_name": "lying_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/lying_axe.json",
+          "src/main/java/com/camelychan/defconttwo/item/LyingAxeItem.java"
+        ]
+      }
     },
     {
       "name": "LyingSword",
@@ -878,7 +1508,13 @@
       "sortid": 110,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lying_sword"
+      "registry_name": "lying_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/LyingSwordItem.java",
+          "src/main/resources/assets/defconttwo/models/item/lying_sword.json"
+        ]
+      }
     },
     {
       "name": "LyingShovel",
@@ -886,7 +1522,13 @@
       "sortid": 111,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lying_shovel"
+      "registry_name": "lying_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/lying_shovel.json",
+          "src/main/java/com/camelychan/defconttwo/item/LyingShovelItem.java"
+        ]
+      }
     },
     {
       "name": "LyingHoe",
@@ -894,7 +1536,13 @@
       "sortid": 112,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lying_hoe"
+      "registry_name": "lying_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/lying_hoe.json",
+          "src/main/java/com/camelychan/defconttwo/item/LyingHoeItem.java"
+        ]
+      }
     },
     {
       "name": "LyingPickaxeRecipe",
@@ -902,7 +1550,12 @@
       "sortid": 113,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lying_pickaxe_recipe"
+      "registry_name": "lying_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/lying_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "LyingAxeRecipe",
@@ -910,7 +1563,12 @@
       "sortid": 114,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lying_axe_recipe"
+      "registry_name": "lying_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/lying_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "LyingSwordRecipe",
@@ -918,7 +1576,12 @@
       "sortid": 115,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lying_sword_recipe"
+      "registry_name": "lying_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/lying_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "LyingShovelRecipe",
@@ -926,7 +1589,12 @@
       "sortid": 116,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lying_shovel_recipe"
+      "registry_name": "lying_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/lying_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "LyingHoeRecipe",
@@ -934,7 +1602,12 @@
       "sortid": 117,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "lying_hoe_recipe"
+      "registry_name": "lying_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/lying_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "LightPickaxe",
@@ -942,7 +1615,13 @@
       "sortid": 118,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "light_pickaxe"
+      "registry_name": "light_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/LightPickaxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/light_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "LightAxe",
@@ -950,7 +1629,13 @@
       "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "light_axe"
+      "registry_name": "light_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/LightAxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/light_axe.json"
+        ]
+      }
     },
     {
       "name": "LightSword",
@@ -958,7 +1643,13 @@
       "sortid": 120,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "light_sword"
+      "registry_name": "light_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/LightSwordItem.java",
+          "src/main/resources/assets/defconttwo/models/item/light_sword.json"
+        ]
+      }
     },
     {
       "name": "LightShovel",
@@ -966,7 +1657,13 @@
       "sortid": 121,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "light_shovel"
+      "registry_name": "light_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/light_shovel.json",
+          "src/main/java/com/camelychan/defconttwo/item/LightShovelItem.java"
+        ]
+      }
     },
     {
       "name": "LightHoe",
@@ -974,7 +1671,13 @@
       "sortid": 122,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "light_hoe"
+      "registry_name": "light_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/light_hoe.json",
+          "src/main/java/com/camelychan/defconttwo/item/LightHoeItem.java"
+        ]
+      }
     },
     {
       "name": "LightPickaxeRecipe",
@@ -982,7 +1685,12 @@
       "sortid": 123,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "light_pickaxe_recipe"
+      "registry_name": "light_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/light_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "LightAxeRecipe",
@@ -990,7 +1698,12 @@
       "sortid": 124,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "light_axe_recipe"
+      "registry_name": "light_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/light_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "LightSwordRecipe",
@@ -998,7 +1711,12 @@
       "sortid": 125,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "light_sword_recipe"
+      "registry_name": "light_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/light_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "LightShovelRecipe",
@@ -1006,7 +1724,12 @@
       "sortid": 126,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "light_shovel_recipe"
+      "registry_name": "light_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/light_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "LightHoeRecipe",
@@ -1014,7 +1737,12 @@
       "sortid": 127,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "light_hoe_recipe"
+      "registry_name": "light_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/light_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "DarkPickaxe",
@@ -1022,7 +1750,13 @@
       "sortid": 128,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_pickaxe"
+      "registry_name": "dark_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/dark_pickaxe.json",
+          "src/main/java/com/camelychan/defconttwo/item/DarkPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "DarkAxe",
@@ -1030,7 +1764,13 @@
       "sortid": 129,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_axe"
+      "registry_name": "dark_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/DarkAxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/dark_axe.json"
+        ]
+      }
     },
     {
       "name": "DarkSword",
@@ -1038,7 +1778,13 @@
       "sortid": 130,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_sword"
+      "registry_name": "dark_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/dark_sword.json",
+          "src/main/java/com/camelychan/defconttwo/item/DarkSwordItem.java"
+        ]
+      }
     },
     {
       "name": "DarkShovel",
@@ -1046,7 +1792,13 @@
       "sortid": 131,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_shovel"
+      "registry_name": "dark_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/dark_shovel.json",
+          "src/main/java/com/camelychan/defconttwo/item/DarkShovelItem.java"
+        ]
+      }
     },
     {
       "name": "DarkHoe",
@@ -1054,7 +1806,13 @@
       "sortid": 132,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_hoe"
+      "registry_name": "dark_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/DarkHoeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/dark_hoe.json"
+        ]
+      }
     },
     {
       "name": "DarkPickaxeRecipe",
@@ -1062,7 +1820,12 @@
       "sortid": 133,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_pickaxe_recipe"
+      "registry_name": "dark_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/dark_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "DarkAxeRecipe",
@@ -1070,7 +1833,12 @@
       "sortid": 134,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_axe_recipe"
+      "registry_name": "dark_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/truth_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "DarkSwordRecipe",
@@ -1078,7 +1846,12 @@
       "sortid": 135,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_sword_recipe"
+      "registry_name": "dark_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/dark_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "DarkShovelRecipe",
@@ -1086,7 +1859,12 @@
       "sortid": 136,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_shovel_recipe"
+      "registry_name": "dark_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/dark_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "DarkHoeRecipe",
@@ -1094,7 +1872,12 @@
       "sortid": 137,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_hoe_recipe"
+      "registry_name": "dark_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/watcher_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "TotalisArmor",
@@ -1107,7 +1890,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/totalis_armor_leggings.json",
+          "src/main/resources/assets/defconttwo/models/item/totalis_armor_chestplate.json",
+          "src/main/resources/assets/defconttwo/models/item/totalis_armor_boots.json",
+          "src/main/resources/assets/defconttwo/models/item/totalis_armor_helmet.json",
+          "src/main/java/com/camelychan/defconttwo/item/TotalisArmorItem.java"
+        ]
       }
     },
     {
@@ -1116,7 +1906,12 @@
       "sortid": 139,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_armor_helmet_recipe"
+      "registry_name": "totalis_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/totalis_armor_helmet_recipe.json"
+        ]
+      }
     },
     {
       "name": "TotalisArmorBodyRecipe",
@@ -1124,7 +1919,12 @@
       "sortid": 140,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_armor_body_recipe"
+      "registry_name": "totalis_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/totalis_armor_body_recipe.json"
+        ]
+      }
     },
     {
       "name": "TotalisArmorLeggingsRecipe",
@@ -1132,7 +1932,12 @@
       "sortid": 141,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_armor_leggings_recipe"
+      "registry_name": "totalis_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/totalis_armor_leggings_recipe.json"
+        ]
+      }
     },
     {
       "name": "TotalisArmorBootsRecipe",
@@ -1140,7 +1945,12 @@
       "sortid": 142,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "totalis_armor_boots_recipe"
+      "registry_name": "totalis_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/totalis_armor_boots_recipe.json"
+        ]
+      }
     },
     {
       "name": "StateraArmor",
@@ -1153,7 +1963,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/statera_armor_helmet.json",
+          "src/main/resources/assets/defconttwo/models/item/statera_armor_chestplate.json",
+          "src/main/resources/assets/defconttwo/models/item/statera_armor_leggings.json",
+          "src/main/resources/assets/defconttwo/models/item/statera_armor_boots.json",
+          "src/main/java/com/camelychan/defconttwo/item/StateraArmorItem.java"
+        ]
       }
     },
     {
@@ -1162,7 +1979,12 @@
       "sortid": 144,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_armor_helmet_recipe"
+      "registry_name": "statera_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/statera_armor_helmet_recipe.json"
+        ]
+      }
     },
     {
       "name": "StateraArmorBodyRecipe",
@@ -1170,7 +1992,12 @@
       "sortid": 145,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_armor_body_recipe"
+      "registry_name": "statera_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/statera_armor_body_recipe.json"
+        ]
+      }
     },
     {
       "name": "StateraArmorLeggingsRecipe",
@@ -1178,7 +2005,12 @@
       "sortid": 146,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_armor_leggings_recipe"
+      "registry_name": "statera_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/statera_armor_leggings_recipe.json"
+        ]
+      }
     },
     {
       "name": "StateraArmorBootsRecipe",
@@ -1186,7 +2018,12 @@
       "sortid": 147,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "statera_armor_boots_recipe"
+      "registry_name": "statera_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/statera_armor_boots_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisIngot",
@@ -1194,7 +2031,13 @@
       "sortid": 148,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_ingot"
+      "registry_name": "abnormis_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/AbnormisIngotItem.java",
+          "src/main/resources/assets/defconttwo/models/item/abnormis_ingot.json"
+        ]
+      }
     },
     {
       "name": "AbnormisOre",
@@ -1202,7 +2045,16 @@
       "sortid": 149,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_ore"
+      "registry_name": "abnormis_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/world/features/ores/AbnormisOreFeature.java",
+          "src/main/resources/assets/defconttwo/models/item/abnormis_ore.json",
+          "src/main/resources/assets/defconttwo/blockstates/abnormis_ore.json",
+          "src/main/java/com/camelychan/defconttwo/block/AbnormisOreBlock.java",
+          "src/main/resources/assets/defconttwo/models/block/abnormis_ore.json"
+        ]
+      }
     },
     {
       "name": "AbnormisBlock",
@@ -1210,7 +2062,15 @@
       "sortid": 150,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_block"
+      "registry_name": "abnormis_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/blockstates/abnormis_block.json",
+          "src/main/java/com/camelychan/defconttwo/block/AbnormisBlockBlock.java",
+          "src/main/resources/assets/defconttwo/models/block/abnormis_block.json",
+          "src/main/resources/assets/defconttwo/models/item/abnormis_block.json"
+        ]
+      }
     },
     {
       "name": "AbnormisOreBlockRecipe",
@@ -1218,7 +2078,12 @@
       "sortid": 151,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_ore_block_recipe"
+      "registry_name": "abnormis_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisBlockOreRecipe",
@@ -1226,7 +2091,12 @@
       "sortid": 152,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_block_ore_recipe"
+      "registry_name": "abnormis_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisOreSmelting",
@@ -1234,7 +2104,12 @@
       "sortid": 153,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_ore_smelting"
+      "registry_name": "abnormis_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "BasisIngot",
@@ -1242,7 +2117,13 @@
       "sortid": 154,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_ingot"
+      "registry_name": "basis_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/basis_ingot.json",
+          "src/main/java/com/camelychan/defconttwo/item/BasisIngotItem.java"
+        ]
+      }
     },
     {
       "name": "BasisOre",
@@ -1250,7 +2131,16 @@
       "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_ore"
+      "registry_name": "basis_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/world/features/ores/BasisOreFeature.java",
+          "src/main/java/com/camelychan/defconttwo/block/BasisOreBlock.java",
+          "src/main/resources/assets/defconttwo/blockstates/basis_ore.json",
+          "src/main/resources/assets/defconttwo/models/block/basis_ore.json",
+          "src/main/resources/assets/defconttwo/models/item/basis_ore.json"
+        ]
+      }
     },
     {
       "name": "BasisBlock",
@@ -1258,7 +2148,15 @@
       "sortid": 156,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_block"
+      "registry_name": "basis_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/block/BasisBlockBlock.java",
+          "src/main/resources/assets/defconttwo/blockstates/basis_block.json",
+          "src/main/resources/assets/defconttwo/models/block/basis_block.json",
+          "src/main/resources/assets/defconttwo/models/item/basis_block.json"
+        ]
+      }
     },
     {
       "name": "BasisOreBlockRecipe",
@@ -1266,7 +2164,12 @@
       "sortid": 157,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_ore_block_recipe"
+      "registry_name": "basis_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "BasisBlockOreRecipe",
@@ -1274,7 +2177,12 @@
       "sortid": 158,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_block_ore_recipe"
+      "registry_name": "basis_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "BasisOreSmelting",
@@ -1282,7 +2190,12 @@
       "sortid": 159,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_ore_smelting"
+      "registry_name": "basis_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "InfernumDust",
@@ -1290,7 +2203,13 @@
       "sortid": 160,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_dust"
+      "registry_name": "infernum_dust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/infernum_dust.json",
+          "src/main/java/com/camelychan/defconttwo/item/InfernumDustItem.java"
+        ]
+      }
     },
     {
       "name": "InfernumOre",
@@ -1298,7 +2217,16 @@
       "sortid": 161,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_ore"
+      "registry_name": "infernum_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/infernum_ore.json",
+          "src/main/java/com/camelychan/defconttwo/block/InfernumOreBlock.java",
+          "src/main/resources/assets/defconttwo/blockstates/infernum_ore.json",
+          "src/main/java/com/camelychan/defconttwo/world/features/ores/InfernumOreFeature.java",
+          "src/main/resources/assets/defconttwo/models/block/infernum_ore.json"
+        ]
+      }
     },
     {
       "name": "InfernumBlock",
@@ -1306,7 +2234,15 @@
       "sortid": 162,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_block"
+      "registry_name": "infernum_block",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/block/InfernumBlockBlock.java",
+          "src/main/resources/assets/defconttwo/blockstates/infernum_block.json",
+          "src/main/resources/assets/defconttwo/models/block/infernum_block.json",
+          "src/main/resources/assets/defconttwo/models/item/infernum_block.json"
+        ]
+      }
     },
     {
       "name": "InfernumOreBlockRecipe",
@@ -1314,7 +2250,12 @@
       "sortid": 163,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_ore_block_recipe"
+      "registry_name": "infernum_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "InfernumBlockOreRecipe",
@@ -1322,7 +2263,12 @@
       "sortid": 164,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_block_ore_recipe"
+      "registry_name": "infernum_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "InfernumOreSmelting",
@@ -1330,7 +2276,12 @@
       "sortid": 165,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_ore_smelting"
+      "registry_name": "infernum_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "InfernumIngot",
@@ -1338,7 +2289,13 @@
       "sortid": 166,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_ingot"
+      "registry_name": "infernum_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/InfernumIngotItem.java",
+          "src/main/resources/assets/defconttwo/models/item/infernum_ingot.json"
+        ]
+      }
     },
     {
       "name": "InfernumIngotRecipe",
@@ -1346,7 +2303,12 @@
       "sortid": 167,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_ingot_recipe"
+      "registry_name": "infernum_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_ingot_recipe.json"
+        ]
+      }
     },
     {
       "name": "InfernumPickaxe",
@@ -1354,7 +2316,13 @@
       "sortid": 168,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_pickaxe"
+      "registry_name": "infernum_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/InfernumPickaxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/infernum_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "InfernumAxe",
@@ -1362,7 +2330,13 @@
       "sortid": 169,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_axe"
+      "registry_name": "infernum_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/InfernumAxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/infernum_axe.json"
+        ]
+      }
     },
     {
       "name": "InfernumSword",
@@ -1370,7 +2344,13 @@
       "sortid": 170,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_sword"
+      "registry_name": "infernum_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/InfernumSwordItem.java",
+          "src/main/resources/assets/defconttwo/models/item/infernum_sword.json"
+        ]
+      }
     },
     {
       "name": "InfernumShovel",
@@ -1378,7 +2358,13 @@
       "sortid": 171,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_shovel"
+      "registry_name": "infernum_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/InfernumShovelItem.java",
+          "src/main/resources/assets/defconttwo/models/item/infernum_shovel.json"
+        ]
+      }
     },
     {
       "name": "InfernumHoe",
@@ -1386,7 +2372,13 @@
       "sortid": 172,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_hoe"
+      "registry_name": "infernum_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/InfernumHoeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/infernum_hoe.json"
+        ]
+      }
     },
     {
       "name": "InfernumPickaxeRecipe",
@@ -1394,7 +2386,12 @@
       "sortid": 173,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_pickaxe_recipe"
+      "registry_name": "infernum_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "InfernumAxeRecipe",
@@ -1402,7 +2399,12 @@
       "sortid": 174,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_axe_recipe"
+      "registry_name": "infernum_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "InfernumSwordRecipe",
@@ -1410,7 +2412,12 @@
       "sortid": 175,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_sword_recipe"
+      "registry_name": "infernum_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "InfernumShovelRecipe",
@@ -1418,7 +2425,12 @@
       "sortid": 176,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_shovel_recipe"
+      "registry_name": "infernum_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "InfernumHoeRecipe",
@@ -1426,7 +2438,12 @@
       "sortid": 177,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_hoe_recipe"
+      "registry_name": "infernum_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "InfernumArmor",
@@ -1439,7 +2456,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/infernum_armor_helmet.json",
+          "src/main/java/com/camelychan/defconttwo/item/InfernumArmorItem.java",
+          "src/main/resources/assets/defconttwo/models/item/infernum_armor_chestplate.json",
+          "src/main/resources/assets/defconttwo/models/item/infernum_armor_leggings.json",
+          "src/main/resources/assets/defconttwo/models/item/infernum_armor_boots.json"
+        ]
       }
     },
     {
@@ -1448,7 +2472,12 @@
       "sortid": 179,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_armor_helmet_recipe"
+      "registry_name": "infernum_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_armor_helmet_recipe.json"
+        ]
+      }
     },
     {
       "name": "InfernumArmorBodyRecipe",
@@ -1456,7 +2485,12 @@
       "sortid": 180,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_armor_body_recipe"
+      "registry_name": "infernum_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_armor_body_recipe.json"
+        ]
+      }
     },
     {
       "name": "InfernumArmorLeggingsRecipe",
@@ -1464,7 +2498,12 @@
       "sortid": 181,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_armor_leggings_recipe"
+      "registry_name": "infernum_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_armor_leggings_recipe.json"
+        ]
+      }
     },
     {
       "name": "InfernumArmorBootsRecipe",
@@ -1472,7 +2511,12 @@
       "sortid": 182,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "infernum_armor_boots_recipe"
+      "registry_name": "infernum_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/infernum_armor_boots_recipe.json"
+        ]
+      }
     },
     {
       "name": "DarkDemonHeart",
@@ -1480,7 +2524,13 @@
       "sortid": 183,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_demon_heart"
+      "registry_name": "dark_demon_heart",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/DarkDemonHeartItem.java",
+          "src/main/resources/assets/defconttwo/models/item/dark_demon_heart.json"
+        ]
+      }
     },
     {
       "name": "DarkDemonHeartRecipe",
@@ -1488,7 +2538,12 @@
       "sortid": 184,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dark_demon_heart_recipe"
+      "registry_name": "dark_demon_heart_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/dark_demon_heart_recipe.json"
+        ]
+      }
     },
     {
       "name": "DemonicIngot",
@@ -1496,7 +2551,13 @@
       "sortid": 185,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_ingot"
+      "registry_name": "demonic_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/DemonicIngotItem.java",
+          "src/main/resources/assets/defconttwo/models/item/demonic_ingot.json"
+        ]
+      }
     },
     {
       "name": "DemonicIngotRecipe",
@@ -1504,7 +2565,12 @@
       "sortid": 186,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_ingot_recipe"
+      "registry_name": "demonic_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/demonic_ingot_recipe.json"
+        ]
+      }
     },
     {
       "name": "DemonicPickaxe",
@@ -1512,7 +2578,13 @@
       "sortid": 187,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_pickaxe"
+      "registry_name": "demonic_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/demonic_pickaxe.json",
+          "src/main/java/com/camelychan/defconttwo/item/DemonicPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "DemonicAxe",
@@ -1520,7 +2592,13 @@
       "sortid": 188,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_axe"
+      "registry_name": "demonic_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/demonic_axe.json",
+          "src/main/java/com/camelychan/defconttwo/item/DemonicAxeItem.java"
+        ]
+      }
     },
     {
       "name": "DemonicSword",
@@ -1528,7 +2606,13 @@
       "sortid": 189,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_sword"
+      "registry_name": "demonic_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/DemonicSwordItem.java",
+          "src/main/resources/assets/defconttwo/models/item/demonic_sword.json"
+        ]
+      }
     },
     {
       "name": "DemonicShovel",
@@ -1536,7 +2620,13 @@
       "sortid": 190,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_shovel"
+      "registry_name": "demonic_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/DemonicShovelItem.java",
+          "src/main/resources/assets/defconttwo/models/item/demonic_shovel.json"
+        ]
+      }
     },
     {
       "name": "DemonicHoe",
@@ -1544,7 +2634,13 @@
       "sortid": 191,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_hoe"
+      "registry_name": "demonic_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/demonic_hoe.json",
+          "src/main/java/com/camelychan/defconttwo/item/DemonicHoeItem.java"
+        ]
+      }
     },
     {
       "name": "DemonicPickaxeRecipe",
@@ -1552,7 +2648,12 @@
       "sortid": 192,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_pickaxe_recipe"
+      "registry_name": "demonic_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/demonic_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "DemonicAxeRecipe",
@@ -1560,7 +2661,12 @@
       "sortid": 193,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_axe_recipe"
+      "registry_name": "demonic_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/demonic_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "DemonicSwordRecipe",
@@ -1568,7 +2674,12 @@
       "sortid": 194,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_sword_recipe"
+      "registry_name": "demonic_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/demonic_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "DemonicShovelRecipe",
@@ -1576,7 +2687,12 @@
       "sortid": 195,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_shovel_recipe"
+      "registry_name": "demonic_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/demonic_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "DemonicHoeRecipe",
@@ -1584,7 +2700,12 @@
       "sortid": 196,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_hoe_recipe"
+      "registry_name": "demonic_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/demonic_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "DemonicArmor",
@@ -1597,7 +2718,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/demonic_armor_chestplate.json",
+          "src/main/resources/assets/defconttwo/models/item/demonic_armor_boots.json",
+          "src/main/resources/assets/defconttwo/models/item/demonic_armor_helmet.json",
+          "src/main/java/com/camelychan/defconttwo/item/DemonicArmorItem.java",
+          "src/main/resources/assets/defconttwo/models/item/demonic_armor_leggings.json"
+        ]
       }
     },
     {
@@ -1606,7 +2734,12 @@
       "sortid": 198,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_armor_helmet_recipe"
+      "registry_name": "demonic_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/demonic_armor_helmet_recipe.json"
+        ]
+      }
     },
     {
       "name": "DemonicArmorBodyRecipe",
@@ -1614,7 +2747,12 @@
       "sortid": 199,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_armor_body_recipe"
+      "registry_name": "demonic_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/demonic_armor_body_recipe.json"
+        ]
+      }
     },
     {
       "name": "DemonicArmorLeggingsRecipe",
@@ -1622,7 +2760,12 @@
       "sortid": 200,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_armor_leggings_recipe"
+      "registry_name": "demonic_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/demonic_armor_leggings_recipe.json"
+        ]
+      }
     },
     {
       "name": "DemonicArmorBootsRecipe",
@@ -1630,7 +2773,12 @@
       "sortid": 201,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "demonic_armor_boots_recipe"
+      "registry_name": "demonic_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/demonic_armor_boots_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisPickaxe",
@@ -1638,7 +2786,13 @@
       "sortid": 202,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_pickaxe"
+      "registry_name": "abnormis_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/AbnormisPickaxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/abnormis_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisAxe",
@@ -1646,7 +2800,13 @@
       "sortid": 203,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_axe"
+      "registry_name": "abnormis_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/abnormis_axe.json",
+          "src/main/java/com/camelychan/defconttwo/item/AbnormisAxeItem.java"
+        ]
+      }
     },
     {
       "name": "AbnormisSword",
@@ -1654,7 +2814,13 @@
       "sortid": 204,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_sword"
+      "registry_name": "abnormis_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/AbnormisSwordItem.java",
+          "src/main/resources/assets/defconttwo/models/item/abnormis_sword.json"
+        ]
+      }
     },
     {
       "name": "AbnormisShovel",
@@ -1662,7 +2828,13 @@
       "sortid": 205,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_shovel"
+      "registry_name": "abnormis_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/abnormis_shovel.json",
+          "src/main/java/com/camelychan/defconttwo/item/AbnormisShovelItem.java"
+        ]
+      }
     },
     {
       "name": "AbnormisHoe",
@@ -1670,7 +2842,13 @@
       "sortid": 206,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_hoe"
+      "registry_name": "abnormis_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/abnormis_hoe.json",
+          "src/main/java/com/camelychan/defconttwo/item/AbnormisHoeItem.java"
+        ]
+      }
     },
     {
       "name": "AbnormisPickaxeRecipe",
@@ -1678,7 +2856,12 @@
       "sortid": 207,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_pickaxe_recipe"
+      "registry_name": "abnormis_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisAxeRecipe",
@@ -1686,7 +2869,12 @@
       "sortid": 208,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_axe_recipe"
+      "registry_name": "abnormis_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisSwordRecipe",
@@ -1694,7 +2882,12 @@
       "sortid": 209,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_sword_recipe"
+      "registry_name": "abnormis_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisShovelRecipe",
@@ -1702,7 +2895,12 @@
       "sortid": 210,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_shovel_recipe"
+      "registry_name": "abnormis_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisHoeRecipe",
@@ -1710,7 +2908,12 @@
       "sortid": 211,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_hoe_recipe"
+      "registry_name": "abnormis_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "BasisPickaxe",
@@ -1718,7 +2921,13 @@
       "sortid": 212,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_pickaxe"
+      "registry_name": "basis_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/basis_pickaxe.json",
+          "src/main/java/com/camelychan/defconttwo/item/BasisPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "BasisAxe",
@@ -1726,7 +2935,13 @@
       "sortid": 213,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_axe"
+      "registry_name": "basis_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/BasisAxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/basis_axe.json"
+        ]
+      }
     },
     {
       "name": "BasisSword",
@@ -1734,7 +2949,13 @@
       "sortid": 214,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_sword"
+      "registry_name": "basis_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/BasisSwordItem.java",
+          "src/main/resources/assets/defconttwo/models/item/basis_sword.json"
+        ]
+      }
     },
     {
       "name": "BasisShovel",
@@ -1742,7 +2963,13 @@
       "sortid": 215,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_shovel"
+      "registry_name": "basis_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/basis_shovel.json",
+          "src/main/java/com/camelychan/defconttwo/item/BasisShovelItem.java"
+        ]
+      }
     },
     {
       "name": "BasisHoe",
@@ -1750,7 +2977,13 @@
       "sortid": 216,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_hoe"
+      "registry_name": "basis_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/basis_hoe.json",
+          "src/main/java/com/camelychan/defconttwo/item/BasisHoeItem.java"
+        ]
+      }
     },
     {
       "name": "BasisPickaxeRecipe",
@@ -1758,7 +2991,12 @@
       "sortid": 217,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_pickaxe_recipe"
+      "registry_name": "basis_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "BasisAxeRecipe",
@@ -1766,7 +3004,12 @@
       "sortid": 218,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_axe_recipe"
+      "registry_name": "basis_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "BasisSwordRecipe",
@@ -1774,7 +3017,12 @@
       "sortid": 219,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_sword_recipe"
+      "registry_name": "basis_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "BasisShovelRecipe",
@@ -1782,7 +3030,12 @@
       "sortid": 220,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_shovel_recipe"
+      "registry_name": "basis_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "BasisHoeRecipe",
@@ -1790,7 +3043,12 @@
       "sortid": 221,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_hoe_recipe"
+      "registry_name": "basis_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisArmor",
@@ -1803,7 +3061,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/AbnormisArmorItem.java",
+          "src/main/resources/assets/defconttwo/models/item/abnormis_armor_chestplate.json",
+          "src/main/resources/assets/defconttwo/models/item/abnormis_armor_leggings.json",
+          "src/main/resources/assets/defconttwo/models/item/abnormis_armor_helmet.json",
+          "src/main/resources/assets/defconttwo/models/item/abnormis_armor_boots.json"
+        ]
       }
     },
     {
@@ -1812,7 +3077,12 @@
       "sortid": 223,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_armor_helmet_recipe"
+      "registry_name": "abnormis_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_armor_helmet_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisArmorBodyRecipe",
@@ -1820,7 +3090,12 @@
       "sortid": 224,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_armor_body_recipe"
+      "registry_name": "abnormis_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_armor_body_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisArmorLeggingsRecipe",
@@ -1828,7 +3103,12 @@
       "sortid": 225,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_armor_leggings_recipe"
+      "registry_name": "abnormis_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_armor_leggings_recipe.json"
+        ]
+      }
     },
     {
       "name": "AbnormisArmorBootsRecipe",
@@ -1836,7 +3116,12 @@
       "sortid": 226,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "abnormis_armor_boots_recipe"
+      "registry_name": "abnormis_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/abnormis_armor_boots_recipe.json"
+        ]
+      }
     },
     {
       "name": "BasisArmor",
@@ -1849,7 +3134,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/BasisArmorItem.java",
+          "src/main/resources/assets/defconttwo/models/item/basis_armor_chestplate.json",
+          "src/main/resources/assets/defconttwo/models/item/basis_armor_helmet.json",
+          "src/main/resources/assets/defconttwo/models/item/basis_armor_boots.json",
+          "src/main/resources/assets/defconttwo/models/item/basis_armor_leggings.json"
+        ]
       }
     },
     {
@@ -1858,7 +3150,12 @@
       "sortid": 228,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_armor_helmet_recipe"
+      "registry_name": "basis_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_armor_helmet_recipe.json"
+        ]
+      }
     },
     {
       "name": "BasisArmorBodyRecipe",
@@ -1866,7 +3163,12 @@
       "sortid": 229,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_armor_body_recipe"
+      "registry_name": "basis_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_armor_body_recipe.json"
+        ]
+      }
     },
     {
       "name": "BasisArmorLeggingsRecipe",
@@ -1874,7 +3176,12 @@
       "sortid": 230,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_armor_leggings_recipe"
+      "registry_name": "basis_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_armor_leggings_recipe.json"
+        ]
+      }
     },
     {
       "name": "BasisArmorBootsRecipe",
@@ -1882,7 +3189,12 @@
       "sortid": 231,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "basis_armor_boots_recipe"
+      "registry_name": "basis_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/basis_armor_boots_recipe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumDust",
@@ -1890,7 +3202,13 @@
       "sortid": 232,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_dust"
+      "registry_name": "cobaltium_dust",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/CobaltiumDustItem.java",
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_dust.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumOre",
@@ -1898,7 +3216,16 @@
       "sortid": 233,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_ore"
+      "registry_name": "cobaltium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/block/cobaltium_ore.json",
+          "src/main/java/com/camelychan/defconttwo/world/features/ores/CobaltiumOreFeature.java",
+          "src/main/java/com/camelychan/defconttwo/block/CobaltiumOreBlock.java",
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_ore.json",
+          "src/main/resources/assets/defconttwo/blockstates/cobaltium_ore.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumBlock",
@@ -1906,7 +3233,15 @@
       "sortid": 234,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_block"
+      "registry_name": "cobaltium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/block/cobaltium_block.json",
+          "src/main/java/com/camelychan/defconttwo/block/CobaltiumBlockBlock.java",
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_block.json",
+          "src/main/resources/assets/defconttwo/blockstates/cobaltium_block.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumOreBlockRecipe",
@@ -1914,7 +3249,12 @@
       "sortid": 235,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_ore_block_recipe"
+      "registry_name": "cobaltium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_ore_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumBlockOreRecipe",
@@ -1922,7 +3262,12 @@
       "sortid": 236,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_block_ore_recipe"
+      "registry_name": "cobaltium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_block_ore_recipe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumOreSmelting",
@@ -1930,7 +3275,12 @@
       "sortid": 237,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_ore_smelting"
+      "registry_name": "cobaltium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_ore_smelting.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumPickaxe",
@@ -1938,7 +3288,13 @@
       "sortid": 238,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_pickaxe"
+      "registry_name": "cobaltium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/CobaltiumPickaxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_pickaxe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumAxe",
@@ -1946,7 +3302,13 @@
       "sortid": 239,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_axe"
+      "registry_name": "cobaltium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/CobaltiumAxeItem.java",
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_axe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumSword",
@@ -1954,7 +3316,13 @@
       "sortid": 240,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_sword"
+      "registry_name": "cobaltium_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_sword.json",
+          "src/main/java/com/camelychan/defconttwo/item/CobaltiumSwordItem.java"
+        ]
+      }
     },
     {
       "name": "CobaltiumShovel",
@@ -1962,7 +3330,13 @@
       "sortid": 241,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_shovel"
+      "registry_name": "cobaltium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/com/camelychan/defconttwo/item/CobaltiumShovelItem.java",
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_shovel.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumHoe",
@@ -1970,7 +3344,13 @@
       "sortid": 242,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_hoe"
+      "registry_name": "cobaltium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_hoe.json",
+          "src/main/java/com/camelychan/defconttwo/item/CobaltiumHoeItem.java"
+        ]
+      }
     },
     {
       "name": "CobaltiumPickaxeRecipe",
@@ -1978,7 +3358,12 @@
       "sortid": 243,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_pickaxe_recipe"
+      "registry_name": "cobaltium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumAxeRecipe",
@@ -1986,7 +3371,12 @@
       "sortid": 244,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_axe_recipe"
+      "registry_name": "cobaltium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumSwordRecipe",
@@ -1994,7 +3384,12 @@
       "sortid": 245,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_sword_recipe"
+      "registry_name": "cobaltium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumShovelRecipe",
@@ -2002,7 +3397,12 @@
       "sortid": 246,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_shovel_recipe"
+      "registry_name": "cobaltium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumHoeRecipe",
@@ -2010,7 +3410,12 @@
       "sortid": 247,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_hoe_recipe"
+      "registry_name": "cobaltium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumArmor",
@@ -2023,7 +3428,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_armor_chestplate.json",
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_armor_leggings.json",
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_armor_helmet.json",
+          "src/main/resources/assets/defconttwo/models/item/cobaltium_armor_boots.json",
+          "src/main/java/com/camelychan/defconttwo/item/CobaltiumArmorItem.java"
+        ]
       }
     },
     {
@@ -2032,7 +3444,12 @@
       "sortid": 249,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_armor_helmet_recipe"
+      "registry_name": "cobaltium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_armor_helmet_recipe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumArmorBodyRecipe",
@@ -2040,7 +3457,12 @@
       "sortid": 250,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_armor_body_recipe"
+      "registry_name": "cobaltium_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_armor_body_recipe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumArmorLeggingsRecipe",
@@ -2048,7 +3470,12 @@
       "sortid": 251,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_armor_leggings_recipe"
+      "registry_name": "cobaltium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_armor_leggings_recipe.json"
+        ]
+      }
     },
     {
       "name": "CobaltiumArmorBootsRecipe",
@@ -2056,7 +3483,12 @@
       "sortid": 252,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "cobaltium_armor_boots_recipe"
+      "registry_name": "cobaltium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/defconttwo/recipes/cobaltium_armor_boots_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2066,8 +3498,8 @@
       "item.defconttwo.light_pickaxe": "Light Pickaxe",
       "item.defconttwo.totalis_armor_leggings": "Totalis Leggings",
       "item.defconttwo.abnormis_sword": "Abnormis Sword",
-      "item.defconttwo.dark_sword": "Dark Sword",
       "item.defconttwo.lying_pickaxe": "Lying Pickaxe",
+      "item.defconttwo.dark_sword": "Dark Sword",
       "item.defconttwo.totalis_armor_boots": "Totalis Boots",
       "item.defconttwo.infernum_dust": "Infernum",
       "item.defconttwo.statera_axe": "Statera Axe",
@@ -2227,5 +3659,5 @@
     "modElementsPackage": "com.camelychan.defconttwo",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202300224119
 }

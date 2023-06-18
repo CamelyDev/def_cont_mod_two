@@ -36,6 +36,6 @@ public class StrongSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(DefconttwoModItems.ROBUR));
 			}
-		}, 3, -2.2999999999999998f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -2.3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
 	}
 }

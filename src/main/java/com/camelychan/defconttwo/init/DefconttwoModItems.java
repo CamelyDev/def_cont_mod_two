@@ -245,25 +245,17 @@ public class DefconttwoModItems {
 
 	public static void load() {
 		ADSTUTUS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "adstutus"), new AdstutusItem());
-		ADSTUTUS_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "adstutus_ore"),
-				new BlockItem(DefconttwoModBlocks.ADSTUTUS_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		ADSTUTUS_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "adstutus_block"),
-				new BlockItem(DefconttwoModBlocks.ADSTUTUS_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		ADSTUTUS_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "adstutus_ore"), new BlockItem(DefconttwoModBlocks.ADSTUTUS_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		ADSTUTUS_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "adstutus_block"), new BlockItem(DefconttwoModBlocks.ADSTUTUS_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		OBSERVANTIA = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "observantia"), new ObservantiaItem());
-		OBSERVANTIA_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "observantia_ore"),
-				new BlockItem(DefconttwoModBlocks.OBSERVANTIA_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		OBSERVANTIA_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "observantia_block"),
-				new BlockItem(DefconttwoModBlocks.OBSERVANTIA_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		OBSERVANTIA_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "observantia_ore"), new BlockItem(DefconttwoModBlocks.OBSERVANTIA_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		OBSERVANTIA_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "observantia_block"), new BlockItem(DefconttwoModBlocks.OBSERVANTIA_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		ROBUR = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "robur"), new RoburItem());
-		ROBUR_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "robur_ore"),
-				new BlockItem(DefconttwoModBlocks.ROBUR_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		ROBUR_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "robur_block"),
-				new BlockItem(DefconttwoModBlocks.ROBUR_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		ROBUR_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "robur_ore"), new BlockItem(DefconttwoModBlocks.ROBUR_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		ROBUR_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "robur_block"), new BlockItem(DefconttwoModBlocks.ROBUR_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		VERUM = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "verum"), new VerumItem());
-		VERUM_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "verum_ore"),
-				new BlockItem(DefconttwoModBlocks.VERUM_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		VERUM_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "verum_block"),
-				new BlockItem(DefconttwoModBlocks.VERUM_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		VERUM_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "verum_ore"), new BlockItem(DefconttwoModBlocks.VERUM_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		VERUM_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "verum_block"), new BlockItem(DefconttwoModBlocks.VERUM_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		TOTALIS_GEM = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_gem"), new TotalisGemItem());
 		TOTALIS_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_pickaxe"), new TotalisPickaxeItem());
 		TOTALIS_AXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_axe"), new TotalisAxeItem());
@@ -271,21 +263,15 @@ public class DefconttwoModItems {
 		TOTALIS_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_shovel"), new TotalisShovelItem());
 		TOTALIS_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_hoe"), new TotalisHoeItem());
 		CALUMNIA = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "calumnia"), new CalumniaItem());
-		CALUMNIA_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "calumnia_ore"),
-				new BlockItem(DefconttwoModBlocks.CALUMNIA_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		CALUMNIA_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "calumnia_block"),
-				new BlockItem(DefconttwoModBlocks.CALUMNIA_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		CALUMNIA_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "calumnia_ore"), new BlockItem(DefconttwoModBlocks.CALUMNIA_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		CALUMNIA_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "calumnia_block"), new BlockItem(DefconttwoModBlocks.CALUMNIA_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		STATERA_GEM = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_gem"), new StateraGemItem());
 		LUX = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "lux"), new LuxItem());
-		LUX_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "lux_ore"),
-				new BlockItem(DefconttwoModBlocks.LUX_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		LUX_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "lux_block"),
-				new BlockItem(DefconttwoModBlocks.LUX_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		LUX_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "lux_ore"), new BlockItem(DefconttwoModBlocks.LUX_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		LUX_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "lux_block"), new BlockItem(DefconttwoModBlocks.LUX_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		TENEBRIS_INGOT = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "tenebris_ingot"), new TenebrisIngotItem());
-		TENEBRIS_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "tenebris_ore"),
-				new BlockItem(DefconttwoModBlocks.TENEBRIS_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		TENEBRIS_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "tenebris_block"),
-				new BlockItem(DefconttwoModBlocks.TENEBRIS_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		TENEBRIS_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "tenebris_ore"), new BlockItem(DefconttwoModBlocks.TENEBRIS_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		TENEBRIS_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "tenebris_block"), new BlockItem(DefconttwoModBlocks.TENEBRIS_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		STATERA_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_pickaxe"), new StateraPickaxeItem());
 		STATERA_AXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_axe"), new StateraAxeItem());
 		STATERA_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_sword"), new StateraSwordItem());
@@ -326,51 +312,33 @@ public class DefconttwoModItems {
 		DARK_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "dark_sword"), new DarkSwordItem());
 		DARK_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "dark_shovel"), new DarkShovelItem());
 		DARK_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "dark_hoe"), new DarkHoeItem());
-		TOTALIS_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_helmet"),
-				new TotalisArmorItem.Helmet());
-		TOTALIS_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_chestplate"),
-				new TotalisArmorItem.Chestplate());
-		TOTALIS_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_leggings"),
-				new TotalisArmorItem.Leggings());
-		TOTALIS_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_boots"),
-				new TotalisArmorItem.Boots());
-		STATERA_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_helmet"),
-				new StateraArmorItem.Helmet());
-		STATERA_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_chestplate"),
-				new StateraArmorItem.Chestplate());
-		STATERA_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_leggings"),
-				new StateraArmorItem.Leggings());
-		STATERA_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_boots"),
-				new StateraArmorItem.Boots());
+		TOTALIS_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_helmet"), new TotalisArmorItem.Helmet());
+		TOTALIS_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_chestplate"), new TotalisArmorItem.Chestplate());
+		TOTALIS_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_leggings"), new TotalisArmorItem.Leggings());
+		TOTALIS_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "totalis_armor_boots"), new TotalisArmorItem.Boots());
+		STATERA_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_helmet"), new StateraArmorItem.Helmet());
+		STATERA_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_chestplate"), new StateraArmorItem.Chestplate());
+		STATERA_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_leggings"), new StateraArmorItem.Leggings());
+		STATERA_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "statera_armor_boots"), new StateraArmorItem.Boots());
 		ABNORMIS_INGOT = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_ingot"), new AbnormisIngotItem());
-		ABNORMIS_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_ore"),
-				new BlockItem(DefconttwoModBlocks.ABNORMIS_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		ABNORMIS_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_block"),
-				new BlockItem(DefconttwoModBlocks.ABNORMIS_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		ABNORMIS_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_ore"), new BlockItem(DefconttwoModBlocks.ABNORMIS_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		ABNORMIS_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_block"), new BlockItem(DefconttwoModBlocks.ABNORMIS_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		BASIS_INGOT = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_ingot"), new BasisIngotItem());
-		BASIS_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_ore"),
-				new BlockItem(DefconttwoModBlocks.BASIS_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		BASIS_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_block"),
-				new BlockItem(DefconttwoModBlocks.BASIS_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		BASIS_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_ore"), new BlockItem(DefconttwoModBlocks.BASIS_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		BASIS_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_block"), new BlockItem(DefconttwoModBlocks.BASIS_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		INFERNUM_DUST = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_dust"), new InfernumDustItem());
-		INFERNUM_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_ore"),
-				new BlockItem(DefconttwoModBlocks.INFERNUM_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		INFERNUM_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_block"),
-				new BlockItem(DefconttwoModBlocks.INFERNUM_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		INFERNUM_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_ore"), new BlockItem(DefconttwoModBlocks.INFERNUM_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		INFERNUM_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_block"), new BlockItem(DefconttwoModBlocks.INFERNUM_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
 		INFERNUM_INGOT = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_ingot"), new InfernumIngotItem());
 		INFERNUM_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_pickaxe"), new InfernumPickaxeItem());
 		INFERNUM_AXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_axe"), new InfernumAxeItem());
 		INFERNUM_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_sword"), new InfernumSwordItem());
 		INFERNUM_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_shovel"), new InfernumShovelItem());
 		INFERNUM_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_hoe"), new InfernumHoeItem());
-		INFERNUM_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_helmet"),
-				new InfernumArmorItem.Helmet());
-		INFERNUM_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_chestplate"),
-				new InfernumArmorItem.Chestplate());
-		INFERNUM_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_leggings"),
-				new InfernumArmorItem.Leggings());
-		INFERNUM_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_boots"),
-				new InfernumArmorItem.Boots());
+		INFERNUM_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_helmet"), new InfernumArmorItem.Helmet());
+		INFERNUM_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_chestplate"), new InfernumArmorItem.Chestplate());
+		INFERNUM_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_leggings"), new InfernumArmorItem.Leggings());
+		INFERNUM_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "infernum_armor_boots"), new InfernumArmorItem.Boots());
 		DARK_DEMON_HEART = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "dark_demon_heart"), new DarkDemonHeartItem());
 		DEMONIC_INGOT = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_ingot"), new DemonicIngotItem());
 		DEMONIC_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_pickaxe"), new DemonicPickaxeItem());
@@ -378,14 +346,10 @@ public class DefconttwoModItems {
 		DEMONIC_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_sword"), new DemonicSwordItem());
 		DEMONIC_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_shovel"), new DemonicShovelItem());
 		DEMONIC_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_hoe"), new DemonicHoeItem());
-		DEMONIC_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_helmet"),
-				new DemonicArmorItem.Helmet());
-		DEMONIC_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_chestplate"),
-				new DemonicArmorItem.Chestplate());
-		DEMONIC_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_leggings"),
-				new DemonicArmorItem.Leggings());
-		DEMONIC_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_boots"),
-				new DemonicArmorItem.Boots());
+		DEMONIC_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_helmet"), new DemonicArmorItem.Helmet());
+		DEMONIC_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_chestplate"), new DemonicArmorItem.Chestplate());
+		DEMONIC_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_leggings"), new DemonicArmorItem.Leggings());
+		DEMONIC_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "demonic_armor_boots"), new DemonicArmorItem.Boots());
 		ABNORMIS_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_pickaxe"), new AbnormisPickaxeItem());
 		ABNORMIS_AXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_axe"), new AbnormisAxeItem());
 		ABNORMIS_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_sword"), new AbnormisSwordItem());
@@ -396,40 +360,25 @@ public class DefconttwoModItems {
 		BASIS_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_sword"), new BasisSwordItem());
 		BASIS_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_shovel"), new BasisShovelItem());
 		BASIS_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_hoe"), new BasisHoeItem());
-		ABNORMIS_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_helmet"),
-				new AbnormisArmorItem.Helmet());
-		ABNORMIS_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_chestplate"),
-				new AbnormisArmorItem.Chestplate());
-		ABNORMIS_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_leggings"),
-				new AbnormisArmorItem.Leggings());
-		ABNORMIS_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_boots"),
-				new AbnormisArmorItem.Boots());
-		BASIS_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_helmet"),
-				new BasisArmorItem.Helmet());
-		BASIS_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_chestplate"),
-				new BasisArmorItem.Chestplate());
-		BASIS_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_leggings"),
-				new BasisArmorItem.Leggings());
-		BASIS_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_boots"),
-				new BasisArmorItem.Boots());
+		ABNORMIS_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_helmet"), new AbnormisArmorItem.Helmet());
+		ABNORMIS_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_chestplate"), new AbnormisArmorItem.Chestplate());
+		ABNORMIS_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_leggings"), new AbnormisArmorItem.Leggings());
+		ABNORMIS_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "abnormis_armor_boots"), new AbnormisArmorItem.Boots());
+		BASIS_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_helmet"), new BasisArmorItem.Helmet());
+		BASIS_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_chestplate"), new BasisArmorItem.Chestplate());
+		BASIS_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_leggings"), new BasisArmorItem.Leggings());
+		BASIS_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "basis_armor_boots"), new BasisArmorItem.Boots());
 		COBALTIUM_DUST = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_dust"), new CobaltiumDustItem());
-		COBALTIUM_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_ore"),
-				new BlockItem(DefconttwoModBlocks.COBALTIUM_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		COBALTIUM_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_block"),
-				new BlockItem(DefconttwoModBlocks.COBALTIUM_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
-		COBALTIUM_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_pickaxe"),
-				new CobaltiumPickaxeItem());
+		COBALTIUM_ORE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_ore"), new BlockItem(DefconttwoModBlocks.COBALTIUM_ORE, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		COBALTIUM_BLOCK = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_block"), new BlockItem(DefconttwoModBlocks.COBALTIUM_BLOCK, new Item.Properties().tab(CreativeModeTab.TAB_BUILDING_BLOCKS)));
+		COBALTIUM_PICKAXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_pickaxe"), new CobaltiumPickaxeItem());
 		COBALTIUM_AXE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_axe"), new CobaltiumAxeItem());
 		COBALTIUM_SWORD = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_sword"), new CobaltiumSwordItem());
 		COBALTIUM_SHOVEL = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_shovel"), new CobaltiumShovelItem());
 		COBALTIUM_HOE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_hoe"), new CobaltiumHoeItem());
-		COBALTIUM_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_helmet"),
-				new CobaltiumArmorItem.Helmet());
-		COBALTIUM_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_chestplate"),
-				new CobaltiumArmorItem.Chestplate());
-		COBALTIUM_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_leggings"),
-				new CobaltiumArmorItem.Leggings());
-		COBALTIUM_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_boots"),
-				new CobaltiumArmorItem.Boots());
+		COBALTIUM_ARMOR_HELMET = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_helmet"), new CobaltiumArmorItem.Helmet());
+		COBALTIUM_ARMOR_CHESTPLATE = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_chestplate"), new CobaltiumArmorItem.Chestplate());
+		COBALTIUM_ARMOR_LEGGINGS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_leggings"), new CobaltiumArmorItem.Leggings());
+		COBALTIUM_ARMOR_BOOTS = Registry.register(Registry.ITEM, new ResourceLocation(DefconttwoMod.MODID, "cobaltium_armor_boots"), new CobaltiumArmorItem.Boots());
 	}
 }

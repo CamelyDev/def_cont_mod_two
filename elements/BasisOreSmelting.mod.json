@@ -1,16 +1,30 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "recipe",
   "definition": {
-    "recipeType": "Smelting",
-    "xpReward": 1.0499999999999998,
-    "cookingTime": 200,
+    "recipeType": "Crafting",
     "recipeRetstackSize": 1,
     "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "recipeSlots": [
       {
+        "value": "CUSTOM:Robur"
+      },
+      {
+        "value": "CUSTOM:Robur"
+      },
+      {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:Robur"
+      },
+      {
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -19,34 +33,16 @@
         "value": ""
       },
       {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
-      },
-      {
-        "value": ""
+        "value": "Items.STICK"
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": ""
+      "value": "CUSTOM:StrongAxe"
     },
-    "smeltingInputStack": {
-      "value": "CUSTOM:BasisOre"
-    },
-    "smeltingReturnStack": {
-      "value": "CUSTOM:BasisIngot"
-    },
-    "name": "basis_ore_smelting",
+    "name": "strong_axe_recipe",
     "namespace": "mod"
   }
 }

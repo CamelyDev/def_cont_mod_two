@@ -41,10 +41,9 @@ public class BasisOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new BasisOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("defconttwo:basis_ore", FEATURE,
-				new OreConfiguration(BasisOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.BASIS_ORE.defaultBlockState(), 4));
-		PLACED_FEATURE = PlacementUtils.register("defconttwo:basis_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(7), InSquarePlacement.spread(),
-				HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(43)), BiomeFilter.biome()));
+		CONFIGURED_FEATURE = FeatureUtils.register("defconttwo:basis_ore", FEATURE, new OreConfiguration(BasisOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.BASIS_ORE.defaultBlockState(), 4));
+		PLACED_FEATURE = PlacementUtils.register("defconttwo:basis_ore", CONFIGURED_FEATURE,
+				List.of(CountPlacement.of(7), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(43)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -68,12 +67,17 @@ public class BasisOreFeature extends OreFeature {
 	private static class BasisOreFeatureRuleTest extends RuleTest {
 		static final BasisOreFeatureRuleTest INSTANCE = new BasisOreFeatureRuleTest();
 		static final com.mojang.serialization.Codec<BasisOreFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		static final RuleTestType<BasisOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
-				new ResourceLocation("defconttwo:basis_ore_match"), () -> codec);
+		static final RuleTestType<BasisOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("defconttwo:basis_ore_match"), () -> codec);
 
 		public boolean test(BlockState blockAt, RandomSource random) {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.STONE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.GRANITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.DIORITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.ANDESITE)
 				blockCriteria = true;
 			return blockCriteria;
 		}

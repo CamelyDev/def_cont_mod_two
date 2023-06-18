@@ -23,8 +23,7 @@ import java.util.Collections;
 import com.camelychan.defconttwo.init.DefconttwoModBlocks;
 
 public class AdstutusBlockBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL).requiresCorrectToolForDrops().sound(SoundType.METAL)
-			.strength(5f, 10f).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.METAL).requiresCorrectToolForDrops().sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops();
 
 	public AdstutusBlockBlock() {
 		super(PROPERTIES);

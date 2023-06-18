@@ -36,6 +36,6 @@ public class TotalisHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(DefconttwoModItems.TOTALIS_GEM));
 			}
-		}, 0, -2.9000000000000001f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 0, -2.9f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }

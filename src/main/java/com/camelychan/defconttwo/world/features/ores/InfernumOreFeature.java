@@ -41,11 +41,9 @@ public class InfernumOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new InfernumOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("defconttwo:infernum_ore", FEATURE,
-				new OreConfiguration(InfernumOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.INFERNUM_ORE.defaultBlockState(), 8));
+		CONFIGURED_FEATURE = FeatureUtils.register("defconttwo:infernum_ore", FEATURE, new OreConfiguration(InfernumOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.INFERNUM_ORE.defaultBlockState(), 8));
 		PLACED_FEATURE = PlacementUtils.register("defconttwo:infernum_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(-60), VerticalAnchor.absolute(0)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(-60), VerticalAnchor.absolute(0)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -69,8 +67,7 @@ public class InfernumOreFeature extends OreFeature {
 	private static class InfernumOreFeatureRuleTest extends RuleTest {
 		static final InfernumOreFeatureRuleTest INSTANCE = new InfernumOreFeatureRuleTest();
 		static final com.mojang.serialization.Codec<InfernumOreFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		static final RuleTestType<InfernumOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
-				new ResourceLocation("defconttwo:infernum_ore_match"), () -> codec);
+		static final RuleTestType<InfernumOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("defconttwo:infernum_ore_match"), () -> codec);
 
 		public boolean test(BlockState blockAt, RandomSource random) {
 			boolean blockCriteria = false;

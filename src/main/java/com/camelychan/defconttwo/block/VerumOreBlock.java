@@ -24,8 +24,7 @@ import com.camelychan.defconttwo.init.DefconttwoModItems;
 import com.camelychan.defconttwo.init.DefconttwoModBlocks;
 
 public class VerumOreBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE)
-			.strength(2.8000000000000003f, 7f).lightLevel(s -> 2).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(2.8f, 7f).lightLevel(s -> 2).requiresCorrectToolForDrops();
 
 	public VerumOreBlock() {
 		super(PROPERTIES);

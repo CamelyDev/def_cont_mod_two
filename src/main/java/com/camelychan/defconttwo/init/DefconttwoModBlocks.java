@@ -60,8 +60,7 @@ public class DefconttwoModBlocks {
 		ADSTUTUS_ORE = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "adstutus_ore"), new AdstutusOreBlock());
 		ADSTUTUS_BLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "adstutus_block"), new AdstutusBlockBlock());
 		OBSERVANTIA_ORE = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "observantia_ore"), new ObservantiaOreBlock());
-		OBSERVANTIA_BLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "observantia_block"),
-				new ObservantiaBlockBlock());
+		OBSERVANTIA_BLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "observantia_block"), new ObservantiaBlockBlock());
 		ROBUR_ORE = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "robur_ore"), new RoburOreBlock());
 		ROBUR_BLOCK = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "robur_block"), new RoburBlockBlock());
 		VERUM_ORE = Registry.register(Registry.BLOCK, new ResourceLocation(DefconttwoMod.MODID, "verum_ore"), new VerumOreBlock());

@@ -31,8 +31,7 @@ import com.camelychan.defconttwo.DefconttwoMod;
 public class DefconttwoModFeatures {
 	public static void load() {
 		register("adstutus_ore", AdstutusOreFeature.feature(), AdstutusOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
-		register("observantia_ore", ObservantiaOreFeature.feature(), ObservantiaOreFeature.GENERATE_BIOMES,
-				GenerationStep.Decoration.UNDERGROUND_ORES);
+		register("observantia_ore", ObservantiaOreFeature.feature(), ObservantiaOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("robur_ore", RoburOreFeature.feature(), RoburOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("verum_ore", VerumOreFeature.feature(), VerumOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
 		register("calumnia_ore", CalumniaOreFeature.feature(), CalumniaOreFeature.GENERATE_BIOMES, GenerationStep.Decoration.UNDERGROUND_ORES);
@@ -46,7 +45,6 @@ public class DefconttwoModFeatures {
 
 	private static void register(String registryName, Feature feature, Predicate<BiomeSelectionContext> biomes, GenerationStep.Decoration genStep) {
 		Registry.register(Registry.FEATURE, new ResourceLocation(DefconttwoMod.MODID, registryName), feature);
-		BiomeModifications.addFeature(biomes, genStep,
-				ResourceKey.create(Registry.PLACED_FEATURE_REGISTRY, new ResourceLocation(DefconttwoMod.MODID, registryName)));
+		BiomeModifications.addFeature(biomes, genStep, ResourceKey.create(Registry.PLACED_FEATURE_REGISTRY, new ResourceLocation(DefconttwoMod.MODID, registryName)));
 	}
 }

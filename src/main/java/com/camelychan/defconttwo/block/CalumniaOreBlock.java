@@ -24,8 +24,7 @@ import com.camelychan.defconttwo.init.DefconttwoModItems;
 import com.camelychan.defconttwo.init.DefconttwoModBlocks;
 
 public class CalumniaOreBlock extends Block {
-	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE)
-			.strength(4.5f, 7f).lightLevel(s -> 2).requiresCorrectToolForDrops();
+	public static BlockBehaviour.Properties PROPERTIES = FabricBlockSettings.of(Material.STONE).requiresCorrectToolForDrops().sound(SoundType.STONE).strength(4.5f, 7f).lightLevel(s -> 2).requiresCorrectToolForDrops();
 
 	public CalumniaOreBlock() {
 		super(PROPERTIES);

@@ -41,11 +41,9 @@ public class TenebrisOreFeature extends OreFeature {
 
 	public static Feature<?> feature() {
 		FEATURE = new TenebrisOreFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("defconttwo:tenebris_ore", FEATURE,
-				new OreConfiguration(TenebrisOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.TENEBRIS_ORE.defaultBlockState(), 4));
+		CONFIGURED_FEATURE = FeatureUtils.register("defconttwo:tenebris_ore", FEATURE, new OreConfiguration(TenebrisOreFeatureRuleTest.INSTANCE, DefconttwoModBlocks.TENEBRIS_ORE.defaultBlockState(), 4));
 		PLACED_FEATURE = PlacementUtils.register("defconttwo:tenebris_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(2), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(24)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(2), InSquarePlacement.spread(), HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(24)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 
@@ -69,12 +67,17 @@ public class TenebrisOreFeature extends OreFeature {
 	private static class TenebrisOreFeatureRuleTest extends RuleTest {
 		static final TenebrisOreFeatureRuleTest INSTANCE = new TenebrisOreFeatureRuleTest();
 		static final com.mojang.serialization.Codec<TenebrisOreFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		static final RuleTestType<TenebrisOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
-				new ResourceLocation("defconttwo:tenebris_ore_match"), () -> codec);
+		static final RuleTestType<TenebrisOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("defconttwo:tenebris_ore_match"), () -> codec);
 
 		public boolean test(BlockState blockAt, RandomSource random) {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.STONE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.GRANITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.DIORITE)
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.ANDESITE)
 				blockCriteria = true;
 			return blockCriteria;
 		}
