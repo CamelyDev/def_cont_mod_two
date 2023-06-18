@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "defconttwo:abnormis_block"
+    }
+  ],
+  "result": {
+    "item": "defconttwo:abnormis_ingot",
+    "count": 9
+  }
+}

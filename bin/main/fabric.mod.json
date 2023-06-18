@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "defconttwo",
+  "version": "0.0.2",
+  "name": "Definitive Content Mod II: Electric Boogaloo",
+  "description": "A lot of ores.",
+  "authors": [
+    "Camely"
+  ],
+  "contact": {
+    "homepage": "https://nosiness.000webhostapp.com",
+    "sources": ""
+  },
+  "license": "GNU General Public License version 3 (GPLv3)",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.camelychan.defconttwo.DefconttwoMod"
+    ],
+    "client": [
+      "com.camelychan.defconttwo.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "mixins": [
+    "defconttwo.mixins.json"
+  ]
+}

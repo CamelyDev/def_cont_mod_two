@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "defconttwo:blocks/lux_ore_block",
+    "particle": "defconttwo:blocks/lux_ore_block"
+  }
+}

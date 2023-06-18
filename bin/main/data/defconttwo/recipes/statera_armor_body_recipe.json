@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:statera_gem"
+    },
+    "2": {
+      "item": "defconttwo:statera_gem"
+    },
+    "3": {
+      "item": "defconttwo:statera_gem"
+    },
+    "4": {
+      "item": "defconttwo:statera_gem"
+    },
+    "5": {
+      "item": "defconttwo:statera_gem"
+    },
+    "6": {
+      "item": "defconttwo:statera_gem"
+    },
+    "7": {
+      "item": "defconttwo:statera_gem"
+    },
+    "8": {
+      "item": "defconttwo:statera_gem"
+    }
+  },
+  "result": {
+    "item": "defconttwo:statera_armor_chestplate",
+    "count": 1
+  }
+}

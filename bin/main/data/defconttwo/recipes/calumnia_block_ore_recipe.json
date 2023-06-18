@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "defconttwo:calumnia_block"
+    }
+  ],
+  "result": {
+    "item": "defconttwo:calumnia",
+    "count": 9
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:adstutus"
+    },
+    "1": {
+      "item": "defconttwo:verum"
+    },
+    "2": {
+      "item": "defconttwo:adstutus"
+    },
+    "3": {
+      "item": "defconttwo:robur"
+    },
+    "4": {
+      "item": "defconttwo:verum"
+    },
+    "5": {
+      "item": "defconttwo:robur"
+    },
+    "7": {
+      "item": "defconttwo:observantia"
+    }
+  },
+  "result": {
+    "item": "defconttwo:totalis_gem",
+    "count": 1
+  }
+}

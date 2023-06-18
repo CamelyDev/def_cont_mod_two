@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:demonic_ingot"
+    },
+    "1": {
+      "item": "defconttwo:demonic_ingot"
+    },
+    "2": {
+      "item": "defconttwo:demonic_ingot"
+    },
+    "4": {
+      "item": "minecraft:bone"
+    },
+    "7": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "defconttwo:demonic_pickaxe",
+    "count": 1
+  }
+}

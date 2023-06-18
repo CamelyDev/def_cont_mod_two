@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "defconttwo:basis_block"
+    }
+  ],
+  "result": {
+    "item": "defconttwo:basis_ingot",
+    "count": 9
+  }
+}

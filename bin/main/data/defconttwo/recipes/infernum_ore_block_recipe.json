@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:infernum_dust"
+    },
+    "1": {
+      "item": "defconttwo:infernum_dust"
+    },
+    "2": {
+      "item": "defconttwo:infernum_dust"
+    },
+    "3": {
+      "item": "defconttwo:infernum_dust"
+    },
+    "4": {
+      "item": "defconttwo:infernum_dust"
+    },
+    "5": {
+      "item": "defconttwo:infernum_dust"
+    },
+    "6": {
+      "item": "defconttwo:infernum_dust"
+    },
+    "7": {
+      "item": "defconttwo:infernum_dust"
+    },
+    "8": {
+      "item": "defconttwo:infernum_dust"
+    }
+  },
+  "result": {
+    "item": "defconttwo:infernum_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:calumnia"
+    },
+    "1": {
+      "item": "defconttwo:calumnia"
+    },
+    "2": {
+      "item": "defconttwo:calumnia"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "defconttwo:lying_pickaxe",
+    "count": 1
+  }
+}

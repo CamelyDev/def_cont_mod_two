@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "1": {
+      "item": "defconttwo:verum"
+    },
+    "2": {
+      "item": "defconttwo:observantia"
+    },
+    "3": {
+      "item": "defconttwo:adstutus"
+    },
+    "4": {
+      "item": "defconttwo:totalis_gem"
+    },
+    "5": {
+      "item": "minecraft:gold_ingot"
+    },
+    "6": {
+      "item": "defconttwo:calumnia"
+    },
+    "7": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "defconttwo:statera_gem",
+    "count": 1
+  }
+}

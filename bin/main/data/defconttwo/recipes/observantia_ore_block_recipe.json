@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:observantia"
+    },
+    "1": {
+      "item": "defconttwo:observantia"
+    },
+    "2": {
+      "item": "defconttwo:observantia"
+    },
+    "3": {
+      "item": "defconttwo:observantia"
+    },
+    "4": {
+      "item": "defconttwo:observantia"
+    },
+    "5": {
+      "item": "defconttwo:observantia"
+    },
+    "6": {
+      "item": "defconttwo:observantia"
+    },
+    "7": {
+      "item": "defconttwo:observantia"
+    },
+    "8": {
+      "item": "defconttwo:observantia"
+    }
+  },
+  "result": {
+    "item": "defconttwo:observantia_block",
+    "count": 1
+  }
+}

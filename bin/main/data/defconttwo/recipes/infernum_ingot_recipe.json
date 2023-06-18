@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "defconttwo:tenebris_ingot"
+    },
+    {
+      "item": "defconttwo:statera_gem"
+    },
+    {
+      "item": "defconttwo:infernum_dust"
+    },
+    {
+      "item": "defconttwo:infernum_dust"
+    },
+    {
+      "item": "defconttwo:infernum_dust"
+    },
+    {
+      "item": "defconttwo:infernum_dust"
+    }
+  ],
+  "result": {
+    "item": "defconttwo:infernum_ingot",
+    "count": 1
+  }
+}

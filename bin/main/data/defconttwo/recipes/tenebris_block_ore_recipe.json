@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "defconttwo:tenebris_block"
+    }
+  ],
+  "result": {
+    "item": "defconttwo:tenebris_ingot",
+    "count": 9
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:demonic_ingot"
+    },
+    "1": {
+      "item": "defconttwo:demonic_ingot"
+    },
+    "2": {
+      "item": "defconttwo:demonic_ingot"
+    },
+    "3": {
+      "item": "defconttwo:demonic_ingot"
+    },
+    "5": {
+      "item": "defconttwo:demonic_ingot"
+    }
+  },
+  "result": {
+    "item": "defconttwo:demonic_armor_helmet",
+    "count": 1
+  }
+}

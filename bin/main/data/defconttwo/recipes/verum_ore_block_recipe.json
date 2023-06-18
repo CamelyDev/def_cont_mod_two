@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "defconttwo:verum"
+    },
+    "1": {
+      "item": "defconttwo:verum"
+    },
+    "2": {
+      "item": "defconttwo:verum"
+    },
+    "3": {
+      "item": "defconttwo:verum"
+    },
+    "4": {
+      "item": "defconttwo:verum"
+    },
+    "5": {
+      "item": "defconttwo:verum"
+    },
+    "6": {
+      "item": "defconttwo:verum"
+    },
+    "7": {
+      "item": "defconttwo:verum"
+    },
+    "8": {
+      "item": "defconttwo:verum"
+    }
+  },
+  "result": {
+    "item": "defconttwo:verum_block",
+    "count": 1
+  }
+}

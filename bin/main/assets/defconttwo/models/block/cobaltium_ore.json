@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "defconttwo:blocks/cobaltium_ore",
+    "particle": "defconttwo:blocks/cobaltium_ore"
+  }
+}
